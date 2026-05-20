@@ -1,7 +1,7 @@
 model:
-  default: anthropic--claude-4.6-sonnet
-  provider: custom
-  base_url: "http://localhost:6655/litellm/v1"
+  default: anthropic/claude-opus-4.7
+  provider: anthropic
+  base_url: ''
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -361,6 +361,7 @@ skills:
   inline_shell_timeout: 10
   guard_agent_created: false
   creation_nudge_interval: 15
+  disabled: []
 curator:
   enabled: true
   interval_hours: 168
@@ -512,7 +513,16 @@ platform_toolsets:
   - hermes-teams
   google_chat:
   - hermes-google_chat
-mcp_servers: {}
+mcp_servers:
+  sap-auth-mcp:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - git+https://github.tools.sap/sfsfmcp/sap-auth-mcp.git
+    env:
+      SAP_AUTH_ACCOUNT: sami.lechner@sap.com
+    toolMode: all
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.
