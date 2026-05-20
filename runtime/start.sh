@@ -7,10 +7,7 @@ set -euo pipefail
 
 HERMES="$HOME/.local/bin/hermes"
 WORKSPACE_DIR="$(cd "$(dirname "$0")" && pwd)"
-LOG_DIR="$HOME/.hermes/logs"
-HERMES_ENV="$HOME/.hermes/.env"
 CLAUDE_SETTINGS="$HOME/.claude/settings.json"
-mkdir -p "$LOG_DIR"
 
 stop_all() {
   echo "Stopping hermes services..."
@@ -23,6 +20,24 @@ stop_all() {
 }
 
 [[ "${1:-}" == "stop" || "${1:-}" == "-k" ]] && stop_all
+
+# ── Resolve active profile → HERMES_HOME ──────────────────────────────────────
+_ACTIVE_PROFILE=$(cat "$HOME/.hermes/active_profile" 2>/dev/null | tr -d '[:space:]')
+if [[ -z "$_ACTIVE_PROFILE" || "$_ACTIVE_PROFILE" == "default" ]]; then
+  export HERMES_HOME="$HOME/.hermes"
+else
+  export HERMES_HOME="$HOME/.hermes/profiles/$_ACTIVE_PROFILE"
+fi
+LOG_DIR="$HERMES_HOME/logs"
+HERMES_ENV="$HERMES_HOME/.env"
+mkdir -p "$LOG_DIR"
+
+# ── Bootstrap API server settings in profile .env ─────────────────────────────
+touch "$HERMES_ENV"
+for _kv in "API_SERVER_ENABLED=true" "API_SERVER_HOST=127.0.0.1" "API_SERVER_PORT=8642"; do
+  _key="${_kv%%=*}"
+  grep -q "^${_key}=" "$HERMES_ENV" 2>/dev/null || echo "$_kv" >> "$HERMES_ENV"
+done
 
 # ── Guard: hai LiteLLM proxy must be running ──────────────────────────────────
 echo "Checking hai LiteLLM proxy on :6655..."
@@ -71,9 +86,15 @@ if [[ -n "$CURRENT_KEY" ]]; then
   python3 -c "
 import re
 path = '$HERMES_ENV'
-with open(path) as f:
-    content = f.read()
-updated = re.sub(r'^OPENAI_API_KEY=.*$', 'OPENAI_API_KEY=$CURRENT_KEY', content, flags=re.MULTILINE)
+try:
+    with open(path) as f:
+        content = f.read()
+except FileNotFoundError:
+    content = ''
+if re.search(r'^OPENAI_API_KEY=', content, re.MULTILINE):
+    updated = re.sub(r'^OPENAI_API_KEY=.*$', 'OPENAI_API_KEY=$CURRENT_KEY', content, flags=re.MULTILINE)
+else:
+    updated = content.rstrip('\n') + ('\n' if content else '') + 'OPENAI_API_KEY=$CURRENT_KEY\n'
 with open(path, 'w') as f:
     f.write(updated)
 "
@@ -103,9 +124,9 @@ echo "Starting hermes gateway on :8642..."
 "$HERMES" gateway run --replace > "$LOG_DIR/gateway.log" 2>&1 &
 GATEWAY_PID=$!
 
-# Wait for gateway health check
+# Wait for gateway to register its PID
 for i in {1..45}; do
-  if curl -fsS http://127.0.0.1:8642/health > /dev/null 2>&1; then
+  if "$HERMES" gateway status 2>/dev/null | grep -q "Gateway is running"; then
     echo "  Gateway healthy ✓"
     break
   fi
