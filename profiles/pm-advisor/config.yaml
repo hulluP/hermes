@@ -3,6 +3,12 @@ model:
   base_url: "http://localhost:6655/litellm/v1"
   default: "anthropic--claude-4.6-sonnet"
 
+display:
+  skin: pm-advisor
+
+terminal:
+  cwd: "/Users/D048098/Library/CloudStorage/OneDrive-SAPSE/My Documents"
+
 mcp_servers:
   mobtech-jira:
     command: /Users/D048098/tools/flutter/bin/dart
@@ -11,3 +17,13 @@ mcp_servers:
     env:
       SAP_COOKIES_PATH: ./sap_cookies.json
     timeout: 60
+
+  doc-search:
+    command: /Users/D048098/tools/flutter/bin/dart
+    args:
+      - run
+      - /Users/D048098/SAPDevelop/2025MCPserver/bin/doc_search_mcp.dart
+    env:
+      DOC_SEARCH_INDEX_PATH: /Users/D048098/.cache/doc-search-mcp/pm-advisor-index.json
+      DOC_SEARCH_ALLOWED_DIRS: "/Users/D048098/Library/CloudStorage/OneDrive-SAPSE/My Documents:/Users/D048098/Library/CloudStorage/OneDrive-SAPSE/Internal Mobile PM - General"
+    timeout: 120

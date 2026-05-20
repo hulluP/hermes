@@ -1,0 +1,1 @@
+SAP Jira setup: jira.tools.sap, authenticated via sap-auth-mcp MCP server. Key projects: SAPBuild (product backlog), MOBTECH (Mobile Technology). The jira_expert agent should use ONLY the sap-auth-mcp MCP tools — no browser, no terminal, no direct HTTP. MCP tool prefix: mcp_sap_auth_mcp_sap_*. ScriptRunner JQL (issueFunction) is NOT installed on this instance.

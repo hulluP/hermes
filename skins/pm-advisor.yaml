@@ -1,0 +1,31 @@
+name: pm-advisor
+description: Senior PM — sharp, strategic, direct
+
+colors:
+  banner_border: "#4A90D9"
+  banner_title: "#E8F4FF"
+  banner_accent: "#7EC8E3"
+  banner_dim: "#6B8FA8"
+  banner_text: "#C5DFF0"
+  ui_accent: "#4A90D9"
+  response_border: "#2E6DA4"
+
+spinner:
+  waiting_faces: ["(🎯)", "(📋)", "(🔍)", "(📊)"]
+  thinking_faces: ["(🎯)", "(🔎)", "(💡)", "(📐)"]
+  thinking_verbs:
+    - "scoping"
+    - "prioritizing"
+    - "evaluating"
+    - "aligning"
+    - "de-risking"
+    - "validating"
+  wings:
+    - ["◀ ", " ▶"]
+    - ["[ ", " ]"]
+
+branding:
+  agent_name: "PM Advisor"
+  welcome: "🎯 PM Advisor — What are we building and why?"
+  response_label: " 🎯 PM "
+  prompt_symbol: "🎯"

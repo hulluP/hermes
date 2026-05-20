@@ -372,39 +372,6 @@ curator:
     keep: 5
 honcho: {}
 timezone: ''
-slack:
-  require_mention: true
-  free_response_channels: ''
-  allowed_channels: ''
-  channel_prompts: {}
-discord:
-  require_mention: true
-  free_response_channels: ''
-  allowed_channels: ''
-  auto_thread: true
-  thread_require_mention: false
-  history_backfill: true
-  history_backfill_limit: 50
-  reactions: true
-  channel_prompts: {}
-  dm_role_auth_guild: ''
-  server_actions: ''
-  allow_any_attachment: false
-  max_attachment_bytes: 33554432
-whatsapp: {}
-telegram:
-  reactions: false
-  channel_prompts: {}
-  allowed_chats: ''
-mattermost:
-  require_mention: true
-  free_response_channels: ''
-  allowed_channels: ''
-  channel_prompts: {}
-matrix:
-  require_mention: true
-  free_response_rooms: ''
-  allowed_rooms: ''
 approvals:
   mode: manual
   timeout: 60
@@ -492,26 +459,8 @@ streaming:
 platform_toolsets:
   cli:
   - hermes-cli
-  telegram:
-  - hermes-telegram
-  discord:
-  - hermes-discord
-  whatsapp:
-  - hermes-whatsapp
-  slack:
-  - hermes-slack
-  signal:
-  - hermes-signal
-  homeassistant:
-  - hermes-homeassistant
-  qqbot:
-  - hermes-qqbot
-  yuanbao:
-  - hermes-yuanbao
   teams:
   - hermes-teams
-  google_chat:
-  - hermes-google_chat
 mcp_servers:
   mobtech-jira:
     transportType: stdio
@@ -521,15 +470,25 @@ mcp_servers:
       SAP_COOKIES_PATH: /Users/D048098/tools/MCP/sap_cookies.json
     toolMode: all
 
-  # sap-jira:
-  #   transportType: stdio
-  #   command: npx
-  #   args:
-  #     - -y
-  #     - git+https://github.tools.sap/sfsfmcp/sap-jira-mcp.git
-  #   env:
-  #     AUTH_COOKIE_DIR: /Users/D048098/.npm/_npx/3962e99d41085895/node_modules/sap-auth-mcp/tmp
-  #   toolMode: all
+  sap-jira:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - git+https://github.tools.sap/sfsfmcp/sap-jira-mcp.git
+    env:
+      AUTH_COOKIE_DIR: /Users/D048098/.npm/_npx/3962e99d41085895/node_modules/sap-auth-mcp/tmp
+    toolMode: all
+
+  sap-auth-mcp:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - git+https://github.tools.sap/sfsfmcp/sap-auth-mcp.git
+    env:
+      SAP_AUTH_ACCOUNT: sami.lechner@sap.com
+    toolMode: all
 
 
 # ── Fallback Model ────────────────────────────────────────────────────

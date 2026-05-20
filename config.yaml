@@ -1,7 +1,7 @@
 model:
-  default: anthropic/claude-opus-4.7
-  provider: anthropic
-  base_url: ''
+  default: anthropic--claude-4.6-sonnet
+  provider: custom
+  base_url: "http://localhost:6655/litellm/v1"
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
