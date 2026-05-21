@@ -52,24 +52,45 @@ if ! curl -fsS http://localhost:6655/ > /dev/null 2>&1; then
 fi
 echo "  LiteLLM proxy running ✓"
 
-# ── Snapshot workspace custom files into ~/.hermes/runtime/ and push ──────────
-echo "Archiving workspace to ~/.hermes/runtime/..."
+# ── Weekly snapshot into ~/.hermes/runtime/ on snapshot branch ────────────────
 RUNTIME_DIR="$HOME/.hermes/runtime"
+SNAPSHOT_STAMP="$RUNTIME_DIR/.snapshot_week"
+_THIS_WEEK=$(date '+%G-W%V')   # ISO week, e.g. 2026-W21
 mkdir -p "$RUNTIME_DIR"
-cp "$WORKSPACE_DIR/start.sh"            "$RUNTIME_DIR/start.sh"
-cp "$WORKSPACE_DIR/pnpm-workspace.yaml" "$RUNTIME_DIR/pnpm-workspace.yaml"
-cp "$WORKSPACE_DIR/.npmrc"              "$RUNTIME_DIR/.npmrc"
-[[ -f "$WORKSPACE_DIR/.env" ]] && cp "$WORKSPACE_DIR/.env" "$RUNTIME_DIR/workspace.env"
-[[ -d "$WORKSPACE_DIR/hermes-config" ]] && cp -r "$WORKSPACE_DIR/hermes-config" "$RUNTIME_DIR/hermes-config"
-(
-  cd "$HOME/.hermes"
-  git add -A
-  if ! git diff --cached --quiet; then
-    git commit -m "snapshot: $(date '+%Y-%m-%d %H:%M')"
-    git push origin main 2>/dev/null || true
-  fi
-) 2>/dev/null || true
-echo "  Archive synced ✓"
+
+if [[ ! -f "$SNAPSHOT_STAMP" ]] || [[ "$(cat "$SNAPSHOT_STAMP" 2>/dev/null)" != "$_THIS_WEEK" ]]; then
+  echo "Archiving workspace to ~/.hermes/runtime/ (weekly snapshot)..."
+  cp "$WORKSPACE_DIR/start.sh"            "$RUNTIME_DIR/start.sh"
+  cp "$WORKSPACE_DIR/pnpm-workspace.yaml" "$RUNTIME_DIR/pnpm-workspace.yaml"
+  cp "$WORKSPACE_DIR/.npmrc"              "$RUNTIME_DIR/.npmrc"
+  [[ -f "$WORKSPACE_DIR/.env" ]] && cp "$WORKSPACE_DIR/.env" "$RUNTIME_DIR/workspace.env"
+  [[ -d "$WORKSPACE_DIR/hermes-config" ]] && cp -r "$WORKSPACE_DIR/hermes-config" "$RUNTIME_DIR/hermes-config"
+  (
+    cd "$HOME/.hermes"
+    # Create snapshot branch from current HEAD if it doesn't exist yet
+    git show-ref --verify --quiet refs/heads/snapshot || git branch snapshot
+    git add -A
+    if ! git diff --cached --quiet; then
+      # Commit directly to snapshot branch without switching away from main:
+      # write-tree captures the index, commit-tree builds the commit object,
+      # update-ref moves snapshot forward — main is never touched.
+      _TREE=$(git write-tree)
+      _PARENT=$(git rev-parse refs/heads/snapshot 2>/dev/null || true)
+      if [[ -n "$_PARENT" ]]; then
+        _COMMIT=$(git commit-tree "$_TREE" -p "$_PARENT" -m "snapshot: $(date '+%Y-%m-%d')")
+      else
+        _COMMIT=$(git commit-tree "$_TREE" -m "snapshot: $(date '+%Y-%m-%d')")
+      fi
+      git update-ref refs/heads/snapshot "$_COMMIT"
+      git reset HEAD   # unstage — main index is clean again
+      git push origin snapshot 2>/dev/null || true
+    fi
+  ) 2>/dev/null || true
+  echo "$_THIS_WEEK" > "$SNAPSHOT_STAMP"
+  echo "  Snapshot archived (week $_THIS_WEEK) ✓"
+else
+  echo "  Snapshot current (week $_THIS_WEEK) — skipping"
+fi
 
 # ── Sync current hai API key into hermes .env ─────────────────────────────────
 echo "Syncing hai API key..."
