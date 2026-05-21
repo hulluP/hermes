@@ -1,9 +1,66 @@
+# ── Model Configuration ───────────────────────────────────────────────
+# All models route through the HAI LiteLLM proxy (hai proxy start → :6655).
+# Change `default` to any model ID below — no extra API keys required.
+#
+# ── HAI Proxy Endpoint Reference ──────────────────────────────────────
+# Provider   Base URL                              Endpoint(s)
+# ─────────  ────────────────────────────────────  ────────────────────────────────────────────
+# Anthropic  http://localhost:6655/anthropic/v1    /messages, /models
+# OpenAI     http://localhost:6655/openai/v1       /chat/completions, /embeddings, /models
+# Gemini     http://localhost:6655/gemini          /v1beta/models/{model}:generateContent
+# LiteLLM    http://localhost:6655/litellm/v1      /chat/completions, /embeddings  ← universal
+#
+# Default below uses /litellm/v1 — works for all model families (Anthropic, GPT, Gemini, sonar).
+# Switch to a native endpoint only if a specific model needs provider-specific features
+# (e.g. Anthropic Messages API → set api_mode: anthropic_messages and base_url: /anthropic/v1).
+#
+# Anthropic Claude (via SAP AI Core):
+#   anthropic--claude-4.7-opus       ← most capable, best reasoning
+#   anthropic--claude-4.6-opus       ← powerful, high quality
+#   anthropic--claude-4.6-sonnet     ← fast / balanced  ← current default
+#   anthropic--claude-4.5-opus       ← capable, previous gen opus
+#   anthropic--claude-4.5-sonnet     ← previous gen sonnet
+#   anthropic--claude-4.5-haiku      ← cheapest / fastest
+#   anthropic--claude-4-sonnet       ← legacy sonnet
+#
+# OpenAI GPT (via SAP AI Core):
+#   gpt-5                            ← frontier GPT-5, most capable
+#   gpt-5.4                          ← GPT-5.4 variant
+#   gpt-5-mini                       ← compact GPT-5
+#   gpt-4.1                          ← latest GPT-4 class, strong reasoning
+#   gpt-4.1-mini                     ← fast / cost-efficient
+#
+# Google Gemini (via SAP AI Core):
+#   gemini-2.5-pro                   ← most capable Gemini
+#   gemini-2.5-flash                 ← fast / cost-efficient
+#   gemini-2.5-flash-lite            ← lightweight Gemini
+#   gemini-3.1-flash-lite            ← next-gen lightweight
+#
+# Perplexity (via LiteLLM proxy — web search built-in, no tools needed):
+#   sonar-pro                        ← deep web search, best quality
+#   sonar                            ← faster / lighter web search
 model:
   default: anthropic--claude-4.6-sonnet
   provider: custom
   base_url: http://localhost:6655/litellm/v1
 providers: {}
 fallback_providers: []
+
+# ── Fallback Model ────────────────────────────────────────────────────
+# Activates on rate limits (429), overload (529), service errors (503).
+# Uses same HAI proxy — just switch to a GPT or Gemini model as fallback.
+#
+# Example — GPT fallback:
+# fallback_model:
+#   provider: custom
+#   base_url: http://localhost:6655/litellm/v1
+#   model: gpt-4.1
+#
+# Example — Gemini fallback:
+# fallback_model:
+#   provider: custom
+#   base_url: http://localhost:6655/litellm/v1
+#   model: gemini-2.5-flash
 credential_pool_strategies: {}
 toolsets:
   - hermes-cli
@@ -498,6 +555,15 @@ platform_toolsets:
   google_chat:
     - hermes-google_chat
 mcp_servers:
+  opencode-mcp:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - opencode-mcp
+    env: {}
+    toolMode: all
+
   sap-auth-mcp:
     transportType: stdio
     command: npx

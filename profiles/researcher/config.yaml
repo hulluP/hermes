@@ -1,0 +1,15 @@
+model:
+  provider: custom
+  base_url: "http://localhost:6655/litellm/v1"
+  api_mode: chat_completions
+  default: "sonar-pro"
+  context_length: 200000
+
+# sonar-pro has web search built-in — no tool definitions needed
+# disabled_toolsets blocks hermes-cli injected via global platform_toolsets.cli
+# sonar-pro returns empty responses when any tools are present in the request
+toolsets: []
+agent:
+  tool_use_enforcement: none
+  disabled_toolsets:
+    - hermes-cli

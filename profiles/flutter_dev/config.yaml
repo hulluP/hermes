@@ -1,0 +1,18 @@
+model:
+  provider: custom
+  base_url: "http://localhost:6655/litellm/v1"
+  default: "anthropic--claude-4.7-opus"
+providers: {}
+fallback_providers: []
+credential_pool_strategies: {}
+toolsets:
+- hermes-cli
+mcp_servers:
+  dart:
+    transportType: stdio
+    command: /Users/D048098/tools/flutter/bin/dart
+    args:
+      - mcp-server
+      - --experimental-mcp-server
+      - --force-roots-fallback
+    toolMode: all

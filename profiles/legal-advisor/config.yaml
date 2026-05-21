@@ -1,4 +1,4 @@
 model:
   provider: custom
   base_url: "http://localhost:6655/litellm/v1"
-  default: "anthropic--claude-4.6-sonnet"
+  default: "gemini-2.5-pro"

@@ -1,7 +1,7 @@
 model:
   provider: custom
   base_url: http://localhost:6655/litellm/v1
-  default: anthropic--claude-4.7-opus
+  default: gemini-2.5-pro
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
