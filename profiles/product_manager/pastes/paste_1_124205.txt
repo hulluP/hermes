@@ -1,0 +1,13 @@
+I want to add to the reaction lights games a special mode called "CLA timePressure" the mode is basically score keeping when we play 3vs3 
+continoum. so in the config screen below the light scanning I can choose how many teams I want min 2 max 4. teams are named team1, team2 
+team3... each team gets a color assigned. let the coch pick the color for teams. one pad will always be orange that is the pod the coach 
+touches if the team passed or turned the ball over to reset the timer. if a team scores the coach touches the color for the team. can we build
+the logic that 3 pods show colors one is orange? the idea of the game is that for example twelve player , four teams, team 1 is under right 
+basket defending, team 2 is under left basket defending, team 3 has the ball and starts attacking left basket. if they score team 2 is 
+attacking and team 3 is defending half court. if team 3 recovers the ball before ball crosses halfcourt they can attack again wchih means team
+2 defend left basket. if team 2 manages to get ball over half court team 1 is defending right basket and team 2 is attacking left basket. 
+meanwhile team 3 rotated out and team 4 rotated under right basket. when team 2 scores then team 1 starts and tries to get the ball over half 
+court to attack right basked which team 4 now is defending. write me a clean user stories put it in the docs folder strucutre it well research
+how 3vs3 continum works and try to build up a proof that with 4 pods we could have manage to keep score and keep track of passed. the idea is 
+that teach time a team scores or a pass happens a count down starts forcing the pass or score with in 5 seconds. this is adding time 
+contstraint CLA style to my practice

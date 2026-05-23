@@ -1,0 +1,4 @@
+05:43:22 interrupt fired: msg='delgate to teh developer agent for development', children=0, parent._interrupt=True
+05:43:22 ENTER: queued interrupt msg='delgate to teh developer agent for development', agent_running=True
+05:43:49 ENTER: queued interrupt msg='implement', agent_running=True
+05:43:49 interrupt fired: msg='implement', children=0, parent._interrupt=True

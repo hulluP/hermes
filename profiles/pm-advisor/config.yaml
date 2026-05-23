@@ -2,6 +2,8 @@ model:
   provider: custom
   base_url: http://localhost:6655/litellm/v1
   default: gemini-2.5-pro
+  context_length: 1000000
+  max_tokens: 8192
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -430,6 +432,14 @@ x_search:
   retries: 2
 _config_version: 23
 mcp_servers:
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
+    env:
+      GITHUB_SAP_TOKEN: ""
+    toolMode: all
+
   mobtech-jira:
     command: /Users/D048098/tools/flutter/bin/dart
     args:

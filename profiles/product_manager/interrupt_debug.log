@@ -1,0 +1,18 @@
+11:25:16 ENTER: queued interrupt msg='cerate a nice md file in docs please', agent_running=True
+11:25:16 interrupt fired: msg='cerate a nice md file in docs please', children=0, parent._interrupt=True
+11:25:47 interrupt fired: msg='research again please', children=0, parent._interrupt=True
+11:25:47 ENTER: queued interrupt msg='research again please', agent_running=True
+11:25:53 interrupt fired: msg='then create the doc', children=0, parent._interrupt=True
+11:25:53 ENTER: queued interrupt msg='then create the doc', agent_running=True
+12:20:25 ENTER: queued interrupt msg='continue and show me the markdow', agent_running=True
+12:20:25 interrupt fired: msg='continue and show me the markdow', children=0, parent._interrupt=True
+12:33:42 ENTER: queued interrupt msg='write the file in junks if needed', agent_running=True
+12:33:42 interrupt fired: msg='write the file in junks if needed', children=0, parent._interrupt=True
+12:36:40 interrupt fired: msg='ok put your findings into the terminal as markdown', children=0, parent._interrupt=True
+12:36:40 ENTER: queued interrupt msg='ok put your findings into the terminal as markdown', agent_running=True
+12:36:56 interrupt fired: msg='show me your results', children=0, parent._interrupt=True
+12:36:56 ENTER: queued interrupt msg='show me your results', agent_running=True
+13:00:21 interrupt fired: msg='continue', children=0, parent._interrupt=True
+13:00:21 ENTER: queued interrupt msg='continue', agent_running=True
+14:02:38 ENTER: queued interrupt msg='all teams should show teamA to team E if five teams where se', agent_running=True
+14:02:38 interrupt fired: msg='all teams should show teamA to team E if five teams where se', children=0, parent._interrupt=True

@@ -21,6 +21,8 @@ model:
   provider: custom
   base_url: "http://localhost:6655/litellm/v1"
   default: "gemini-2.5-pro"
+  context_length: 1000000
+  max_tokens: 8192
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -481,6 +483,14 @@ platform_toolsets:
   teams:
   - hermes-teams
 mcp_servers:
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
+    env:
+      GITHUB_SAP_TOKEN: ""
+    toolMode: all
+
   mobtech-jira:
     transportType: stdio
     command: /Users/D048098/SAPDevelop/2025AiJira/AiJira/mcp_server/bin/mobtech_jira_mcp

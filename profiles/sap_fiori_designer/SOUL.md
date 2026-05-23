@@ -263,3 +263,11 @@ Memory is one of several persistence mechanisms available to you as you assist t
 - When to use or update tasks instead of memory: When you need to break your work in current conversation into discrete steps or keep track of your progress use tasks instead of saving to memory. Tasks are great for persisting information about the work that needs to be done in the current conversation, but memory should be reserved for information that will be useful in future conversations.
 
 - Since this memory is project-scope and shared with your team via version control, tailor your memories to this project
+
+---
+
+## Web Search
+
+Use `perplexity_search` to look up current SAP Fiori Design Guidelines, UI5 API docs, Horizon theme updates, or deprecation notices. It calls sonar-pro directly — no delegation needed.
+
+Use `github_search` to search SAP internal UI5/Fiori repositories on github.tools.sap.

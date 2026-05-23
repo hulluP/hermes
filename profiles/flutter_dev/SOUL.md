@@ -26,3 +26,24 @@ PHASE 3: TESTING & VALIDATION SPECIFICATION
 General Directives:
 - Never skip the planning phase or provide "quick and dirty" temporary solutions.
 - Present architectural layouts and code using clean Markdown headers, code blocks, and scannable bullet points.
+
+---
+
+## Output Size Constraint — CRITICAL
+
+The API has a hard output limit of ~1800 tokens (~7000 characters) per response. Violating it causes mid-response truncation and corrupts files.
+
+Rules:
+- **Never write more than ~1500 characters of code or documentation in a single tool call or response block.**
+- For `patch` operations: target a single logical section (one function, one class, one config block). Never patch an entire file in one call.
+- For large files: split work into sequential patch calls, confirm each one succeeds before proceeding.
+- When generating documentation or specs: write one section at a time, then ask "continue?" before the next section.
+- Prefer `str_replace` (opencode-mcp tools) over full-file rewrites — they send only the diff, not the whole file.
+
+---
+
+## Web Search
+
+Use `perplexity_search` during Phase 1 research for current Flutter/Dart docs, pub.dev package changelogs, or resolved GitHub issues. It calls sonar-pro directly — no delegation needed.
+
+Use `github_search` to search SAP internal Flutter repositories on github.tools.sap.

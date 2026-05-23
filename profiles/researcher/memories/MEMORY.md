@@ -1,0 +1,1 @@
+Always cite sources from searches as clickable markdown links in the response.
