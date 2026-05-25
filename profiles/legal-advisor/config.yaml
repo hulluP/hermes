@@ -1,4 +1,16 @@
 model:
   provider: custom
-  base_url: "http://localhost:6655/litellm/v1"
-  default: "anthropic--claude-4.6-sonnet"
+  base_url: "http://localhost:7655/litellm/v1"
+  default: "gemini-2.5-pro"
+  context_length: 1000000
+  max_tokens: 8192
+
+mcp_servers:
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
+    env:
+      GITHUB_SAP_TOKEN: ""
+    toolMode: all
+

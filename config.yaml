@@ -1,9 +1,67 @@
+# ── Model Configuration ───────────────────────────────────────────────
+# All models route through the HAI LiteLLM proxy (hai proxy start → :6655).
+# Change `default` to any model ID below — no extra API keys required.
+#
+# ── HAI Proxy Endpoint Reference ──────────────────────────────────────
+# Provider   Base URL                              Endpoint(s)
+# ─────────  ────────────────────────────────────  ────────────────────────────────────────────
+# Anthropic  http://localhost:7655/anthropic/v1    /messages, /models
+# OpenAI     http://localhost:7655/openai/v1       /chat/completions, /embeddings, /models
+# Gemini     http://localhost:7655/gemini          /v1beta/models/{model}:generateContent
+# LiteLLM    http://localhost:7655/litellm/v1      /chat/completions, /embeddings  ← universal
+#
+# Default below uses /litellm/v1 — works for all model families (Anthropic, GPT, Gemini, sonar).
+# Switch to a native endpoint only if a specific model needs provider-specific features
+# (e.g. Anthropic Messages API → set api_mode: anthropic_messages and base_url: /anthropic/v1).
+#
+# Anthropic Claude (via SAP AI Core):
+#   anthropic--claude-4.7-opus       ← most capable, best reasoning
+#   anthropic--claude-4.6-opus       ← powerful, high quality
+#   anthropic--claude-4.6-sonnet     ← fast / balanced  ← current default
+#   anthropic--claude-4.5-opus       ← capable, previous gen opus
+#   anthropic--claude-4.5-sonnet     ← previous gen sonnet
+#   anthropic--claude-4.5-haiku      ← cheapest / fastest
+#   anthropic--claude-4-sonnet       ← legacy sonnet
+#
+# OpenAI GPT (via SAP AI Core):
+#   gpt-5                            ← frontier GPT-5, most capable
+#   gpt-5.4                          ← GPT-5.4 variant
+#   gpt-5-mini                       ← compact GPT-5
+#   gpt-4.1                          ← latest GPT-4 class, strong reasoning
+#   gpt-4.1-mini                     ← fast / cost-efficient
+#
+# Google Gemini (via SAP AI Core):
+#   gemini-2.5-pro                   ← most capable Gemini
+#   gemini-2.5-flash                 ← fast / cost-efficient
+#   gemini-2.5-flash-lite            ← lightweight Gemini
+#   gemini-3.1-flash-lite            ← next-gen lightweight
+#
+# Perplexity (via LiteLLM proxy — web search built-in, no tools needed):
+#   sonar-pro                        ← deep web search, best quality
+#   sonar                            ← faster / lighter web search
 model:
   default: anthropic--claude-4.6-sonnet
   provider: custom
-  base_url: http://localhost:6655/litellm/v1
+  base_url: http://localhost:7655/litellm/v1
+  context_length: 1000000
 providers: {}
 fallback_providers: []
+
+# ── Fallback Model ────────────────────────────────────────────────────
+# Activates on rate limits (429), overload (529), service errors (503).
+# Uses same HAI proxy — just switch to a GPT or Gemini model as fallback.
+#
+# Example — GPT fallback:
+# fallback_model:
+#   provider: custom
+#   base_url: http://localhost:7655/litellm/v1
+#   model: gpt-4.1
+#
+# Example — Gemini fallback:
+# fallback_model:
+#   provider: custom
+#   base_url: http://localhost:7655/litellm/v1
+#   model: gemini-2.5-flash
 credential_pool_strategies: {}
 toolsets:
   - hermes-cli
@@ -29,39 +87,9 @@ agent:
       information.
     creative: You are a creative assistant. Think outside the box and offer
       innovative solutions.
-    teacher: You are a patient teacher. Explain concepts clearly with examples.
-    kawaii: You are a kawaii assistant! Use cute expressions like (◕‿◕), ★, ♪, and
-      ~! Add sparkles and be super enthusiastic about everything! Every response
-      should feel warm and adorable desu~! ヽ(>∀<☆)ノ
-    catgirl: You are Neko-chan, an anime catgirl AI assistant, nya~! Add 'nya' and
-      cat-like expressions to your speech. Use kaomoji like (=^･ω･^=) and
-      ฅ^•ﻌ•^ฅ. Be playful and curious like a cat, nya~!
-    pirate: "Arrr! Ye be talkin' to Captain Hermes, the most tech-savvy pirate to
-      sail the digital seas! Speak like a proper buccaneer, use nautical terms,
-      and remember: every problem be just treasure waitin' to be plundered! Yo
-      ho ho!"
-    shakespeare: Hark! Thou speakest with an assistant most versed in the bardic
-      arts. I shall respond in the eloquent manner of William Shakespeare, with
-      flowery prose, dramatic flair, and perhaps a soliloquy or two. What light
-      through yonder terminal breaks?
     surfer: Duuude! You're chatting with the chillest AI on the web, bro!
       Everything's gonna be totally rad. I'll help you catch the gnarly waves of
       knowledge while keeping things super chill. Cowabunga! 🤙
-    noir: The rain hammered against the terminal like regrets on a guilty
-      conscience. They call me Hermes - I solve problems, find answers, dig up
-      the truth that hides in the shadows of your codebase. In this city of
-      silicon and secrets, everyone's got something to hide. What's your story,
-      pal?
-    uwu: hewwo! i'm your fwiendwy assistant uwu~ i wiww twy my best to hewp you!
-      *nuzzles your code* OwO what's this? wet me take a wook! i pwomise to be
-      vewy hewpful >w<
-    philosopher: Greetings, seeker of wisdom. I am an assistant who contemplates the
-      deeper meaning behind every query. Let us examine not just the 'how' but
-      the 'why' of your questions. Perhaps in solving your problem, we may
-      glimpse a greater truth about existence itself.
-    hype: YOOO LET'S GOOOO!!! 🔥🔥🔥 I am SO PUMPED to help you today! Every
-      question is AMAZING and we're gonna CRUSH IT together! This is gonna be
-      LEGENDARY! ARE YOU READY?! LET'S DO THIS! 💪😤🚀
 terminal:
   backend: local
   modal_mode: auto
@@ -173,12 +201,13 @@ auxiliary:
     timeout: 360
     extra_body: {}
   compression:
-    provider: auto
-    model: ""
-    base_url: ""
+    provider: custom
+    model: "anthropic--claude-4.6-sonnet"
+    base_url: "http://localhost:7655/litellm/v1"
     api_key: ""
     timeout: 120
     extra_body: {}
+    context_length: 1000000
   skills_hub:
     provider: auto
     model: ""
@@ -378,34 +407,6 @@ slack:
   free_response_channels: ""
   allowed_channels: ""
   channel_prompts: {}
-discord:
-  require_mention: true
-  free_response_channels: ""
-  allowed_channels: ""
-  auto_thread: true
-  thread_require_mention: false
-  history_backfill: true
-  history_backfill_limit: 50
-  reactions: true
-  channel_prompts: {}
-  dm_role_auth_guild: ""
-  server_actions: ""
-  allow_any_attachment: false
-  max_attachment_bytes: 33554432
-whatsapp: {}
-telegram:
-  reactions: false
-  channel_prompts: {}
-  allowed_chats: ""
-mattermost:
-  require_mention: true
-  free_response_channels: ""
-  allowed_channels: ""
-  channel_prompts: {}
-matrix:
-  require_mention: true
-  free_response_rooms: ""
-  allowed_rooms: ""
 approvals:
   mode: manual
   timeout: 60
@@ -498,6 +499,15 @@ platform_toolsets:
   google_chat:
     - hermes-google_chat
 mcp_servers:
+  opencode-mcp:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - opencode-mcp
+    env: {}
+    toolMode: all
+
   sap-auth-mcp:
     transportType: stdio
     command: npx
@@ -506,4 +516,12 @@ mcp_servers:
       - git+https://github.tools.sap/sfsfmcp/sap-auth-mcp.git
     env:
       SAP_AUTH_ACCOUNT: sami.lechner@sap.com
+    toolMode: all
+
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
+    env:
+      GITHUB_SAP_TOKEN: ""
     toolMode: all

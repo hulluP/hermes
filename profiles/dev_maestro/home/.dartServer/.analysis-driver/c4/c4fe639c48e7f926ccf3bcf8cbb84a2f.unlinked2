@@ -1,0 +1,431 @@
+€û_vtable_SetFocusFn_GetRuntimeIdFn_FindFirstFn
+_FindAllFn_FindFirstBuildCacheFn_FindAllBuildCacheFn_BuildUpdatedCacheFn_GetCurrentPropertyValueFn_GetCurrentPropertyValueExFn_GetCachedPropertyValueFn_GetCachedPropertyValueExFn_GetCurrentPatternAsFn_GetCachedPatternAsFn_GetCurrentPatternFn_GetCachedPatternFn_GetCachedParentFn_GetCachedChildrenFn_get_CurrentProcessIdFn_get_CurrentControlTypeFn"_get_CurrentLocalizedControlTypeFn_get_CurrentNameFn_get_CurrentAcceleratorKeyFn_get_CurrentAccessKeyFn_get_CurrentHasKeyboardFocusFn!_get_CurrentIsKeyboardFocusableFn_get_CurrentIsEnabledFn_get_CurrentAutomationIdFn_get_CurrentClassNameFn_get_CurrentHelpTextFn_get_CurrentCultureFn_get_CurrentIsControlElementFn_get_CurrentIsContentElementFn_get_CurrentIsPasswordFn _get_CurrentNativeWindowHandleFn_get_CurrentItemTypeFn_get_CurrentIsOffscreenFn_get_CurrentOrientationFn_get_CurrentFrameworkIdFn_get_CurrentIsRequiredForFormFn_get_CurrentItemStatusFn_get_CurrentBoundingRectangleFn_get_CurrentLabeledByFn_get_CurrentAriaRoleFn_get_CurrentAriaPropertiesFn _get_CurrentIsDataValidForFormFn_get_CurrentControllerForFn_get_CurrentDescribedByFn_get_CurrentFlowsToFn!_get_CurrentProviderDescriptionFn_get_CachedProcessIdFn_get_CachedControlTypeFn!_get_CachedLocalizedControlTypeFn_get_CachedNameFn_get_CachedAcceleratorKeyFn_get_CachedAccessKeyFn_get_CachedHasKeyboardFocusFn _get_CachedIsKeyboardFocusableFn_get_CachedIsEnabledFn_get_CachedAutomationIdFn_get_CachedClassNameFn_get_CachedHelpTextFn_get_CachedCultureFn_get_CachedIsControlElementFn_get_CachedIsContentElementFn_get_CachedIsPasswordFn_get_CachedNativeWindowHandleFn_get_CachedItemTypeFn_get_CachedIsOffscreenFn_get_CachedOrientationFn_get_CachedFrameworkIdFn_get_CachedIsRequiredForFormFn_get_CachedItemStatusFn_get_CachedBoundingRectangleFn_get_CachedLabeledByFn_get_CachedAriaRoleFn_get_CachedAriaPropertiesFn_get_CachedIsDataValidForFormFn_get_CachedControllerForFn_get_CachedDescribedByFn_get_CachedFlowsToFn _get_CachedProviderDescriptionFn_GetClickablePointFnsetFocusgetRuntimeId	findFirstfindAllfindFirstBuildCachefindAllBuildCachebuildUpdatedCachegetCurrentPropertyValuegetCurrentPropertyValueExgetCachedPropertyValuegetCachedPropertyValueExgetCurrentPatternAsgetCachedPatternAsgetCurrentPatterngetCachedPatterngetCachedParentgetCachedChildrencurrentProcessIdcurrentControlTypecurrentLocalizedControlTypecurrentNamecurrentAcceleratorKeycurrentAccessKeycurrentHasKeyboardFocuscurrentIsKeyboardFocusablecurrentIsEnabledcurrentAutomationIdcurrentClassNamecurrentHelpTextcurrentCulturecurrentIsControlElementcurrentIsContentElementcurrentIsPasswordcurrentNativeWindowHandlecurrentItemTypecurrentIsOffscreencurrentOrientationcurrentFrameworkIdcurrentIsRequiredForFormcurrentItemStatuscurrentBoundingRectanglecurrentLabeledBycurrentAriaRolecurrentAriaPropertiescurrentIsDataValidForFormcurrentControllerForcurrentDescribedBycurrentFlowsTocurrentProviderDescriptioncachedProcessIdcachedControlTypecachedLocalizedControlType
+cachedNamecachedAcceleratorKeycachedAccessKeycachedHasKeyboardFocuscachedIsKeyboardFocusablecachedIsEnabledcachedAutomationIdcachedClassNamecachedHelpTextcachedCulturecachedIsControlElementcachedIsContentElementcachedIsPasswordcachedNativeWindowHandlecachedItemTypecachedIsOffscreencachedOrientationcachedFrameworkIdcachedIsRequiredForFormcachedItemStatuscachedBoundingRectanglecachedLabeledBycachedAriaRolecachedAriaPropertiescachedIsDataValidForFormcachedControllerForcachedDescribedBycachedFlowsTocachedProviderDescriptiongetClickablePointtoStringbase$SetFocusGetRuntimeId	FindFirstFindAllFindFirstBuildCacheFindAllBuildCacheBuildUpdatedCacheGetCurrentPropertyValueGetCurrentPropertyValueExGetCachedPropertyValueGetCachedPropertyValueExGetCurrentPatternAsGetCachedPatternAsGetCurrentPatternGetCachedPatternGetCachedParentGetCachedChildrenget_CurrentProcessIdget_CurrentControlTypeget_CurrentLocalizedControlTypeget_CurrentNameget_CurrentAcceleratorKeyget_CurrentAccessKeyget_CurrentHasKeyboardFocusget_CurrentIsKeyboardFocusableget_CurrentIsEnabledget_CurrentAutomationIdget_CurrentClassNameget_CurrentHelpTextget_CurrentCultureget_CurrentIsControlElementget_CurrentIsContentElementget_CurrentIsPasswordget_CurrentNativeWindowHandleget_CurrentItemTypeget_CurrentIsOffscreenget_CurrentOrientationget_CurrentFrameworkIdget_CurrentIsRequiredForFormget_CurrentItemStatusget_CurrentBoundingRectangleget_CurrentLabeledByget_CurrentAriaRoleget_CurrentAriaPropertiesget_CurrentIsDataValidForFormget_CurrentControllerForget_CurrentDescribedByget_CurrentFlowsToget_CurrentProviderDescriptionget_CachedProcessIdget_CachedControlTypeget_CachedLocalizedControlTypeget_CachedNameget_CachedAcceleratorKeyget_CachedAccessKeyget_CachedHasKeyboardFocusget_CachedIsKeyboardFocusableget_CachedIsEnabledget_CachedAutomationIdget_CachedClassNameget_CachedHelpTextget_CachedCultureget_CachedIsControlElementget_CachedIsContentElementget_CachedIsPasswordget_CachedNativeWindowHandleget_CachedItemTypeget_CachedIsOffscreenget_CachedOrientationget_CachedFrameworkIdget_CachedIsRequiredForFormget_CachedItemStatusget_CachedBoundingRectangleget_CachedLabeledByget_CachedAriaRoleget_CachedAriaPropertiesget_CachedIsDataValidForFormget_CachedControllerForget_CachedDescribedByget_CachedFlowsToget_CachedProviderDescriptionGetClickablePointfromPointeriidIID_IUIAutomationElementIUIAutomationElementIUIAutomationElementVtblIUIAutomationElementCompanion€‰GUIDfromComponentsfromListIUnknownComInterfaceVTablePointernullptrvaluecastrefqueryInterfaceWindowsExceptionpragmaSetFocus
+asFunctionintGetRuntimeIdPointer	SAFEARRAY	FindFirstFindAllFindFirstBuildCacheFindAllBuildCacheBuildUpdatedCacheGetCurrentPropertyValueVARIANTGetCurrentPropertyValueExGetCachedPropertyValueGetCachedPropertyValueExGetCurrentPatternAsGetCachedPatternAsGetCurrentPatternGetCachedPatternGetCachedParentGetCachedChildrenget_CurrentProcessIdInt32get_CurrentControlTypeget_CurrentLocalizedControlTypeUtf16get_CurrentNameget_CurrentAcceleratorKeyget_CurrentAccessKeyget_CurrentHasKeyboardFocusget_CurrentIsKeyboardFocusableget_CurrentIsEnabledget_CurrentAutomationIdget_CurrentClassNameget_CurrentHelpTextget_CurrentCultureget_CurrentIsControlElementget_CurrentIsContentElementget_CurrentIsPasswordget_CurrentNativeWindowHandleget_CurrentItemTypeget_CurrentIsOffscreenget_CurrentOrientationget_CurrentFrameworkIdget_CurrentIsRequiredForFormget_CurrentItemStatusget_CurrentBoundingRectangleRECTget_CurrentLabeledByget_CurrentAriaRoleget_CurrentAriaPropertiesget_CurrentIsDataValidForFormget_CurrentControllerForget_CurrentDescribedByget_CurrentFlowsToget_CurrentProviderDescriptionget_CachedProcessIdget_CachedControlTypeget_CachedLocalizedControlTypeget_CachedNameget_CachedAcceleratorKeyget_CachedAccessKeyget_CachedHasKeyboardFocusget_CachedIsKeyboardFocusableget_CachedIsEnabledget_CachedAutomationIdget_CachedClassNameget_CachedHelpTextget_CachedCultureget_CachedIsControlElementget_CachedIsContentElementget_CachedIsPasswordget_CachedNativeWindowHandleget_CachedItemTypeget_CachedIsOffscreenget_CachedOrientationget_CachedFrameworkIdget_CachedIsRequiredForFormget_CachedItemStatusget_CachedBoundingRectangleget_CachedLabeledByget_CachedAriaRoleget_CachedAriaPropertiesget_CachedIsDataValidForFormget_CachedControllerForget_CachedDescribedByget_CachedFlowsToget_CachedProviderDescriptionGetClickablePointPOINTvoidHRESULTptrisErroradaptiveCallocfree	TreeScopeIUIAutomationConditionisNullnewIUIAutomationElementArrayIUIAutomationCacheRequestUIA_PROPERTY_IDboolTRUEFALSEtyperegisterUIA_PATTERN_IDiidtoNativefromPointerUIA_CONTROLTYPE_IDBSTRHWNDOrientationTypeoverrideStringStructIUnknownVtblNativeFunctioninternalComCompanionIUnknownComInterfaceStructComCompanion*–#"^r íìÏ˜fgf    H   dart:ffi  [   dart:typed_data  v   package:ffi/ffi.dart  •   .package:ffi_leak_tracker/ffi_leak_tracker.dart  Î   package:meta/meta.dart  ğ   ../bstr.dart  ‚   ../constants.dart  ‚#   ../constants.g.dart  ‚A   ../enums.g.dart  ‚[   ../exception.dart  ‚w   ../extensions/pointer.dart  ‚œ   ../guid.dart  ‚³   ../hresult.dart  ‚Í   ../hstring.dart  ‚ç   ../macros.dart  ƒ    ../ntstatus.dart  ƒ   ../pcstr.dart  ƒ3   ../pcwstr.dart  ƒL   ../pstr.dart  ƒc   ../pwstr.dart  ƒ{   ../rpc_status.dart  ƒ˜   ../structs.g.dart  ƒ´   ../types.dart  ƒÌ   ../utils.dart  ƒä   ../variant.dart  ƒş   interface.g.dart  „    iuiautomationcacherequest.g.dart  „D   iuiautomationcondition.g.dart  „l   iuiautomationelement.g.dart  „’    iuiautomationelementarray.g.dart  „½   iunknown.g.dartÀ —µ À2Uˆí KNy|€´FGZtu”Íîï‚‚"‚@‚Z‚v‚›‚²‚Ì‚æ‚ÿƒƒ2ƒKƒbƒzƒ—ƒ³ƒËƒãƒı„„C„k„‘„¼„Ö„×……	……J…X…b…l…±…´…µ††††0†£†§†»‡‡P‡V‡¤‡ôˆˆ'ˆgˆhˆ°ˆÃˆÉ‰‰O‰U‰›‰¹‰ôŠŠŠAŠ\ŠŠ½Šä‹%‹0‹L‹p‹À‹Ë‹åŒŒWŒbŒˆŒ¶ŒÌŒåŒô&HR]­ÃÜë?ITx¤ïú$V‘œÈü<Gp¡Üç‘‘E‘…‘‘¶‘ä’.’9’^’‹’Õ’à““0“q“|“Ÿ“Ê”””8”b””©”Í”ù•5•@•„•Æ––P–Š–±–ü—6——Ï˜˜^˜©˜ß™™D™}™£™åš)škšµ› ›D››Ñœœ\œœÔœ÷9o’Ô\”¹ıŸ?ŸŠŸÒ  \  æ¡1¡h¡Œ¡Î¢¢_¢–¢º¢û£?£‰£Ë¤¤d¤¯¤ç¥¥N¥š¥ä¦,¦v¦¶§ §9§_§ª§ì¨.¨t¨¶¨ï©©`©˜©ãª/ªzª¼««W«™«Ñ«ö¬8¬z¬¼­­O­‘­Ü®®g®¥®ç¯7¯y¯É°°O°‘°È°ì±0±p±»²²C²‰²Ë³³\³’³µ³÷´;´†´¼´ßµ µbµ¬µì¶7¶ƒ¶Î··)·k·µ·ÿ¸E¸¸Í¹¹O¹t¹¿¹ãººSº^º_ºœº¢ºĞºÖºï»m»‹»Ÿ»Ê»ü¼ ¼¼C¼I¼w¼}¼–½½>½z½´½Ë½â¾¾¾0¾E¾Y¾]¾^¾¯¾À¾Æ¾ô¾ú¿¿’¿µ¿Ê¿ñ¿÷À @*À @CÀ @…À @ŒÀ @£À @¶À @ÙÀ @ßÀ A À AÀ A6À APÀ ATÀ AUÀ A¤À AªÀ AØÀ AŞÀ A÷À BtÀ BšÀ B¯À BÖÀ BÜÀ CÀ C(À ChÀ CoÀ C†À C™À C¼À CÂÀ CãÀ CôÀ DÀ D3À D7À D8À D‰À DØÀ EÀ EÀ E<À EBÀ E[À EäÀ FÀ F&À FMÀ FzÀ F€À F³À FÌÀ FêÀ F÷À GÀ G)À GOÀ G^À GgÀ GnÀ G…À G˜À G»À GÁÀ GâÀ GóÀ HÀ H2À H6À H7À H†À HÕÀ HúÀ I À I.À I4À IMÀ IÔÀ JÀ JÀ J@À JmÀ JsÀ J¦À J¿À JÛÀ JèÀ J÷À KÀ K@À KOÀ KXÀ K_À KvÀ K‰À K¬À K²À KÓÀ KäÀ L	À L#À L'À L(À LkÀ LqÀ LŸÀ L¥À L¾À MEÀ MpÀ MÀ M£À MßÀ MøÀ NGÀ NNÀ NeÀ NÀ N¤À NªÀ NÔÀ NîÀ OÀ O-À O1À O2À O‚À OˆÀ O¶À O¼À OÕÀ PbÀ P«À PÙÀ Q'À Q>À QRÀ QuÀ Q{À QÀ Q’À Q“À QßÀ RÀ RÀ R5À R;À RTÀ RãÀ SÀ S1À SNÀ STÀ S‚À S›À S¿À SÌÀ SàÀ TÀ TÀ T$À T+À TBÀ TVÀ TyÀ TÀ T’À T–À T—À TçÀ TíÀ UÀ U!À U:À UÆÀ VÀ V<À V‰À V À V´À V×À VİÀ VğÀ VôÀ VõÀ WEÀ WrÀ WxÀ W¦À W¬À WÅÀ XSÀ X€À X À X½À XÃÀ XñÀ Y
+À Y-À Y:À YNÀ YyÀ Y‰À Y’À Y™À Y°À YÄÀ YçÀ YíÀ Z À ZÀ ZÀ ZTÀ ZqÀ ZwÀ ZÈÀ [À [3À [9À [ŠÀ [ÙÀ \À \À \6À \<À \UÀ \ŞÀ ]&À ]TÀ ]À ]´À ]ÍÀ ^À ^À ^'À ^>À ^YÀ ^|À ^‚À ^ÈÀ ^áÀ ^ôÀ ^øÀ ^ùÀ _IÀ _tÀ _zÀ _ËÀ `À `6À `<À `À `ÜÀ aÀ aÀ a9À a?À aXÀ aàÀ b'À bUÀ b€À bµÀ bÎÀ cÀ cÀ c'À c>À cYÀ c|À c‚À cÈÀ cáÀ côÀ cøÀ cùÀ dIÀ dfÀ dlÀ dšÀ d À d¹À e@À ezÀ eµÀ fÀ fÀ f5À fXÀ f^À f‡À f À fÅÀ fßÀ fãÀ fäÀ g3À g`À gfÀ g”À gšÀ g³À h9À hrÀ h­À húÀ iÀ i,À iOÀ iUÀ i~À i—À i¼À iÖÀ iÚÀ iÛÀ j$À j*À jXÀ j^À jwÀ jüÀ k(À k\À k–À k­À kÁÀ käÀ kêÀ lÀ lÀ lCÀ l]À laÀ lbÀ l«À l±À lßÀ låÀ lşÀ m…À m¸À mîÀ n,À nCÀ nYÀ n|À n‚À n¦À nºÀ nßÀ nùÀ nıÀ nşÀ oDÀ oJÀ ocÀ oíÀ p
+À p6À puÀ pŒÀ p À pÃÀ pÉÀ pëÀ pıÀ qÀ qÀ qÀ qGÀ qMÀ qfÀ qòÀ r À rLÀ rÀ r¤À r¸À rÛÀ ráÀ sÀ sÀ s/À s3À s4À s€À s†À sŸÀ t4À t]À t’À tÜÀ tóÀ uÀ u*À u0À uRÀ udÀ u~À u‚À uƒÀ u¬À u²À uËÀ vPÀ viÀ vÀ vØÀ vïÀ wÀ w&À w,À wNÀ w`À wzÀ w~À wÀ w´À wºÀ wÓÀ xbÀ x…À xºÀ xşÀ yÀ y)À yLÀ yRÀ ytÀ y†À y À y¤À y¥À yßÀ yåÀ yşÀ zˆÀ z¦À zÛÀ {À {1À {EÀ {hÀ {nÀ {À {¢À {¼À {ÀÀ {ÁÀ {ùÀ {ÿÀ |À |©À |ÎÀ |úÀ }@À }WÀ }kÀ }À }”À }¶À }ÈÀ }åÀ }éÀ }êÀ ~)À ~/À ~HÀ ~ÜÀ À 0À yÀ À ¤À ÇÀ ÍÀ ïÀ €À €À €"À €#À €SÀ €YÀ €rÀ €üÀ À FÀ …À œÀ °À ÓÀ ÙÀ ûÀ ‚À ‚*À ‚.À ‚/À ‚vÀ ‚|À ‚•À ƒ"À ƒCÀ ƒxÀ ƒºÀ ƒÑÀ ƒåÀ „À „À „0À „BÀ „\À „`À „aÀ „À „–À „¯À …9À …WÀ …ŒÀ …ËÀ …âÀ …öÀ †À †À †AÀ †SÀ †mÀ †qÀ †rÀ †¡À †§À †ÀÀ ‡IÀ ‡fÀ ‡›À ‡ÙÀ ‡ğÀ ˆÀ ˆ'À ˆ-À ˆOÀ ˆaÀ ˆ{À ˆÀ ˆ€À ˆ¸À ˆ¾À ˆ×À ‰_À ‰zÀ ‰¦À ‰ãÀ ‰úÀ ŠÀ Š1À Š7À ŠYÀ ŠkÀ ŠÀ ŠƒÀ Š„À Š¾À ŠÄÀ ŠİÀ ‹nÀ ‹“À ‹¿À ŒÀ ŒÀ Œ0À ŒSÀ ŒYÀ Œ{À ŒÀ ŒªÀ Œ®À Œ¯À ŒéÀ ŒïÀ À ™À ¾À êÀ 0À GÀ [À ~À „À ¦À ¸À ÕÀ ÙÀ ÚÀ À #À <À ÇÀ æÀ À RÀ iÀ }À  À ¦À ÈÀ ÚÀ ÷À ûÀ üÀ ‘.À ‘4À ‘MÀ ‘àÀ ’À ’5À ’}À ’”À ’¨À ’ËÀ ’ÑÀ ’óÀ “À “À “#À “$À “uÀ “{À “”À ”À ”:À ”oÀ ”­À ”ÄÀ ”ØÀ ”ûÀ •À •#À •5À •OÀ •SÀ •TÀ •‡À •À •¦À –2À –RÀ –~À –¿À –ÖÀ –êÀ —À —À —5À —GÀ —dÀ —hÀ —iÀ —°À —¶À —ÏÀ ˜[À ˜†À ˜²À ˜óÀ ™
+À ™À ™AÀ ™GÀ ™iÀ ™{À ™•À ™™À ™šÀ ™ÓÀ ™ÙÀ ™òÀ š~À šÀ šÓÀ ›À ›+À ›?À ›bÀ ›hÀ ›ŠÀ ›œÀ ›¶À ›ºÀ ›»À œÀ œÀ œ&À œ¸À œŞÀ 
+À QÀ hÀ |À ŸÀ ¥À ÇÀ ÙÀ öÀ úÀ ûÀ CÀ IÀ bÀ íÀ ŸÀ ŸAÀ ŸÀ Ÿ˜À Ÿ¬À ŸÏÀ ŸÕÀ Ÿ÷À  	À  #À  'À  (À  vÀ  …À  ‹À  ¤À ¡6À ¡eÀ ¡À ¡×À ¡îÀ ¢À ¢%À ¢+À ¢>À ¢BÀ ¢CÀ ¢À ¢”À ¢­À £7À £fÀ £šÀ £ÙÀ £ğÀ ¤À ¤'À ¤-À ¤OÀ ¤aÀ ¤†À ¤ À ¤¤À ¤¥À ¤òÀ ¥À ¥À ¥ À ¥©À ¥ÆÀ ¥ûÀ ¦9À ¦PÀ ¦dÀ ¦‡À ¦À ¦¯À ¦ÁÀ ¦ÛÀ ¦ßÀ ¦àÀ §/À §BÀ §HÀ §aÀ §ğÀ ¨À ¨HÀ ¨ŒÀ ¨£À ¨·À ¨ÚÀ ¨àÀ ©À ©À ©.À ©2À ©3À ©wÀ ©}À ©–À ª)À ªPÀ ª|À ªÄÀ ªÛÀ ªïÀ «À «À «:À «LÀ «iÀ «mÀ «nÀ «¸À «ÊÀ «ĞÀ «éÀ ¬wÀ ¬¯À ¬ãÀ ­&À ­=À ­QÀ ­tÀ ­zÀ ­œÀ ­®À ­ÓÀ ­íÀ ­ñÀ ­òÀ ®3À ®9À ®RÀ ®ŞÀ ¯À ¯HÀ ¯‰À ¯ À ¯´À ¯×À ¯İÀ ¯ÿÀ °À °6À °PÀ °TÀ °UÀ °¥À °¼À °ÂÀ °ÛÀ ±cÀ ±•À ±ÉÀ ²À ²À ²1À ²TÀ ²ZÀ ²|À ²À ²³À ²ÍÀ ²ÑÀ ²ÒÀ ³À ³À ³1À ³ÅÀ ³íÀ ´"À ´kÀ ´‚À ´–À ´¹À ´¿À ´áÀ ´óÀ µÀ µÀ µÀ µWÀ µ]À µvÀ µÿÀ ¶À ¶GÀ ¶…À ¶œÀ ¶°À ¶ÓÀ ¶ÙÀ ¶ûÀ ·À ·!À ·%À ·&À ·uÀ ·{À ·”À ¸À ¸LÀ ¸xÀ ¸¸À ¸ÏÀ ¸ãÀ ¹À ¹À ¹.À ¹@À ¹ZÀ ¹^À ¹_À ¹«À ¹ºÀ ¹ÀÀ ¹ÙÀ ºmÀ º•À ºÊÀ »À »*À »>À »aÀ »gÀ »‰À »›À »µÀ »¹À »ºÀ »êÀ »ğÀ ¼	À ¼À ¼¥À ¼ÚÀ ½À ½*À ½>À ½aÀ ½gÀ ½‰À ½›À ½µÀ ½¹À ½ºÀ ½öÀ ½üÀ ¾À ¾£À ¾ÅÀ ¾úÀ ¿=À ¿TÀ ¿hÀ ¿‹À ¿‘À ¿³À ¿ÅÀ ¿ßÀ ¿ãÀ ¿äÀ À%À À+À ÀDÀ ÀÍÀ ÀêÀ ÁÀ Á]À ÁtÀ ÁˆÀ Á«À Á±À ÁÓÀ ÁåÀ ÁÿÀ ÂÀ ÂÀ ÂPÀ ÂVÀ ÂoÀ ÂÿÀ Ã#À ÃOÀ Ã”À Ã«À Ã¿À ÃâÀ ÃèÀ Ä
+À ÄÀ Ä9À Ä=À Ä>À Ä‹À Ä¡À Ä§À ÄÀÀ ÅSÀ ÅzÀ Å¦À ÅîÀ ÆÀ ÆÀ Æ<À ÆBÀ ÆdÀ ÆvÀ Æ“À Æ—À Æ˜À ÆæÀ ÆìÀ ÇÀ ÇÀ Ç«À Ç×À ÈÀ È,À È@À ÈcÀ ÈiÀ È‹À ÈÀ ÈºÀ È¾À È¿À ÉÀ ÉÀ É,À É¸À ÉØÀ ÊÀ ÊNÀ ÊeÀ ÊyÀ ÊœÀ Ê¢À ÊÄÀ ÊÖÀ ÊğÀ ÊôÀ ÊõÀ Ë+À Ë1À ËJÀ ËÓÀ ËğÀ Ì%À ÌcÀ ÌzÀ ÌÀ Ì±À Ì·À ÌÙÀ ÌëÀ ÍÀ Í	À Í
+À Í@À ÍFÀ Í_À ÍçÀ ÎÀ Î8À ÎuÀ ÎŒÀ Î À ÎÃÀ ÎÉÀ ÎëÀ ÎıÀ ÏÀ ÏÀ ÏÀ ÏjÀ ÏyÀ ÏÀ Ï˜À ĞÀ Ğ9À ĞeÀ Ğ¡À Ğ¸À ĞÌÀ ĞïÀ ĞõÀ ÑÀ Ñ)À Ñ=À ÑAÀ ÑBÀ Ñ‘À Ñ À Ñ¦À Ñ¿À ÒOÀ ÒsÀ ÒŸÀ ÒäÀ ÒûÀ ÓÀ Ó2À Ó8À ÓZÀ ÓlÀ Ó‰À ÓÀ ÓÀ ÓÜÀ ÓâÀ ÓûÀ Ô‹À Ô¯À ÔÛÀ Õ À Õ7À ÕKÀ ÕnÀ ÕtÀ Õ–À Õ¨À ÕÅÀ ÕÉÀ ÕÊÀ ÖÀ Ö1À Ö7À ÖPÀ ÖÚÀ ÖøÀ ×$À ×cÀ ×zÀ ×À ×±À ×·À ×ÙÀ ×ëÀ ØÀ ØÀ ØÀ ØFÀ ØLÀ ØeÀ Ø÷À ÙÀ ÙKÀ Ù’À Ù©À Ù½À ÙàÀ ÙæÀ ÚÀ ÚÀ Ú4À Ú8À Ú9À ÚˆÀ Ú›À Ú¡À ÚºÀ ÛBÀ Û^À Û“À ÛĞÀ ÛçÀ ÛûÀ ÜÀ Ü$À ÜFÀ ÜXÀ ÜrÀ ÜvÀ ÜwÀ ÜÈÀ ÜÎÀ ÜçÀ İrÀ İ‘À İ½À İıÀ ŞÀ Ş(À ŞKÀ ŞQÀ ŞsÀ Ş…À Ş¢À Ş¦À Ş§À ŞõÀ ŞûÀ ßÀ ßŸÀ ßÉÀ ßõÀ à5À àLÀ à`À àƒÀ à‰À à«À à½À à×À àÛÀ àÜÀ á+À á>À áDÀ á]À áèÀ âÀ â<À â|À â“À â§À âÊÀ âĞÀ âòÀ ãÀ ãÀ ã"À ã#À ãtÀ ã“À ã™À ã²À äCÀ ähÀ ä”À äÚÀ äñÀ åÀ å(À å.À åPÀ åbÀ åÀ åƒÀ å„À åÕÀ åÛÀ åôÀ æ~À æœÀ æÑÀ çÀ ç'À ç;À ç^À çdÀ ç†À ç˜À ç²À ç¶À ç·À èÀ èÀ è!À è:À èËÀ èùÀ é$À éjÀ éÀ é•À é¸À é¾À éÑÀ éÕÀ éÖÀ êÀ ê.À ê4À êMÀ êÖÀ ëÀ ë8À ëvÀ ëÀ ë¡À ëÄÀ ëÊÀ ëìÀ ëşÀ ì#À ì=À ìAÀ ìBÀ ì’À ì¥À ì«À ìÄÀ íLÀ íhÀ íÀ íÚÀ íñÀ îÀ î(À î.À îPÀ îbÀ î|À î€À îÀ îÉÀ îêÀ îğÀ ï	À ï—À ï¹À ïîÀ ğ1À ğHÀ ğ\À ğÀ ğ…À ğ§À ğ¹À ğÓÀ ğ×À ğØÀ ñ)À ñBÀ ñHÀ ñaÀ ñóÀ òÀ òEÀ òŒÀ ò£À ò·À òÚÀ òàÀ óÀ óÀ ó1À ó5À ó6À ó†À ó¦À ó¬À óÅÀ ôRÀ ô‰À ô½À ôÿÀ õÀ õ*À õMÀ õSÀ õuÀ õ‡À õ¬À õÆÀ õÊÀ õËÀ öÀ öÀ ö1À ö¼À öñÀ ÷%À ÷eÀ ÷|À ÷À ÷³À ÷¹À ÷ÛÀ ÷íÀ øÀ ø,À ø0À ø1À ø‚À øÀ ø£À ø¼À ùCÀ ùtÀ ù¨À ùäÀ ùûÀ úÀ ú2À ú8À úZÀ úlÀ ú‘À ú«À ú¯À ú°À ú÷À úıÀ ûÀ û©À ûĞÀ üÀ üMÀ üdÀ üxÀ ü›À ü¡À üÃÀ üÕÀ üïÀ üóÀ üôÀ ı0À ı6À ıdÀ ıjÀ ıƒÀ ş
+À ş(À şBÀ ş`À şÀ ş‡À şÔÀ ÿÀ ÿ
+À ÿÀ ÿÀ ÿQÀ ÿSÀ ÿTÀ ÿ_À ÿ”À ÿ³À ÿûÀ À À /À €À †À ŠÀ šÀ ®À ÂÀ ØÀ õÀ
+À+ÀQÀYÀ_ÀcÀpÀ„À˜À®ÀËÀàÀÀ'À/À5À9ÀDÀXÀlÀ‚ÀŸÀ´ÀÕÀùÀÀ'À-À1ÀHÀ\ÀpÀ†À£À¸ÀÙÀıÀ#À+À1À5ÀJÀ^ÀrÀˆÀ¥ÀÉÀøÀ ÀÀ
+ÀÀ3ÀGÀ]ÀzÀ”ÀµÀ½ÀÃÀÇÀâÀöÀ
+À À=ÀWÀyÀšÀ¢À¨À¬ÀÉÀİÀñÀÀ$À>À_ÀgÀmÀqÀ‹ÀŸÀ³ÀÉÀæÀ À"ÀCÀKÀQÀUÀqÀ…À™À¯ÀÌÀåÀ	À	)À	1À	7À	;À	RÀ	fÀ	zÀ	À	­À	ÆÀ	âÀ
+
+À
+À
+À
+À
+2À
+FÀ
+ZÀ
+pÀ
+À
+¦À
+ÔÀ
+ÜÀ
+âÀ
+æÀ
+ûÀÀ#À9ÀVÀoÀÀ¥À«À¯ÀÃÀ×ÀëÀ4À:À>ÀQÀeÀyÀÄÀÊÀÎÀãÀ÷ÀFÀJÀbÀvÀÅÀÉÀãÀ÷ÀÀUÀ[À_À‚À–ÀªÀôÀúÀşÀÀ%À9ÀƒÀ‰ÀÀªÀ¾ÀÒÀÀ"À&À>ÀRÀ¡À¥ÀÄÀØÀ'À+ÀMÀaÀ°À´ÀÌÀàÀôÀ>ÀDÀHÀcÀwÀ‹ÀÕÀÛÀßÀ÷ÀÀÀiÀoÀsÀŠÀÀíÀñÀÀÀjÀnÀÀ¡ÀğÀôÀÀ'ÀvÀzÀ“À§ÀøÀüÀÀ1ÀEÀÀ•À™À°ÀÄÀÀÀ1ÀEÀ”À˜À²ÀÆÀÚÀ$À*À.ÀHÀ\À«À¯ÀÏÀãÀ÷ÀAÀGÀKÀdÀxÀÆÀÊÀêÀşÀÀ[ÀaÀeÀ}À‘À¥ÀïÀõÀùÀÀ$À8À‚ÀˆÀŒÀ©À½ÀÀÀ1ÀEÀYÀ¢À¨À¬ÀÈÀÜÀğÀ9À?ÀCÀ]ÀqÀ…ÀÎÀÔÀØÀîÀÀÀ`ÀfÀjÀŒÀ ÀïÀóÀ
+ÀÀmÀqÀŠÀÀ²ÀüÀ À À (À <À PÀ šÀ  À ¤À ¶À ÊÀ ŞÀ!(À!.À!2À!NÀ!bÀ!vÀ!ÀÀ!ÆÀ!ÊÀ!áÀ!õÀ"DÀ"HÀ"fÀ"zÀ"ÉÀ"ÍÀ"îÀ#À#QÀ#UÀ#lÀ#€À#”À#ŞÀ#äÀ#èÀ$À$À$*À$tÀ$zÀ$~À$•À$©À$½À%À%À%À%'À%;À%ŠÀ%À%£À%·À&À&
+À&(À&<À&‹À&À&­À&ÁÀ'À'À',À'@À'‘À'•À'µÀ'ÉÀ'İÀ('À(-À(1À(GÀ([À(ªÀ(®À(ÇÀ(ÛÀ)*À).À)GÀ)[À)oÀ)¹À)¿À)ÃÀ)ÜÀ)ğÀ*?À*CÀ*bÀ*vÀ*ŠÀ*ÔÀ*ÚÀ*ŞÀ*öÀ+
+À+XÀ+\À+{À+À+£À+ìÀ+òÀ+öÀ,À,!À,5À,À,…À,‰À,ŸÀ,³À,ÇÀ-À-À-À-7À-KÀ-šÀ-À-¾À-ÒÀ-æÀ./À.5À.9À.TÀ.hÀ.|À.ÅÀ.ËÀ.ÏÀ.èÀ.üÀ/À/YÀ/_À/cÀ/xÀ/ŒÀ/ À/êÀ/ğÀ/ôÀ0À0)À0=À0SÀ0pÀ0’À0·À0¿À0ÅÀ0ÉÀ0ŞÀ0àÀ0áÀ0ëÀ1À1FÀ1oÀ1pÀ1À1šÀ1ÜÀ1üÀ1ıÀ2À2'À2SÀ2U    G  Z  u  ”  Í  ï  ‚  ‚"  ‚@  ‚Z  ‚v  ‚›  ‚²  ‚Ì  ‚æ  ‚ÿ  ƒ  ƒ2  ƒK  ƒb  ƒz  ƒ—  ƒ³  ƒË  ƒã  ƒı  „  „C  „k  „‘  „¼      ˆ ˆ    ˆˆ	ˆ" ˆ5ˆ-ˆ7ˆ:ˆ;ˆ@ˆAˆEˆ^ˆFˆ_ˆ`ˆaˆb‡‡c €ù/// Creates a new instance of [IUIAutomationElement] from a [VTablePointer].
+///
+/// This constructor requires a valid pointer to the [IUIAutomationElement]
+/// interface. The [ptr] must not be [nullptr]; otherwise, an assertion error
+/// is thrown. ‰»‰Ã‰×‰Ü    ‰İ‰İ‰æ ‰‰‰¤‰·‰¥ˆjˆj«‰Ø$/// Creates a new instance of [IUIAutomationElement] from an existing
+/// [interface].
+///
+/// This factory constructor calls the [queryInterface] method to obtain a
+/// reference to the [IUIAutomationElement] interface.
+///
+/// Throws a [WindowsException] if the [queryInterface] call fails. S Š8Š&Š8 ŠbŠiŠjŠrŠsŠ}Š™Š‚Š~ŠŠŠ˜Š‹ŠšŠ›ŠNŠCYŠN ŠÃŠÊŠËŠ×ŠØŠâ‹+ŠğŠìŠø‹#Šù‹‹‹"‹‹‹!‹‹,‹-Š«Š €Š« ‹R‹Y‹Z‹c‹d‹n‹Æ‹|‹x‹„‹¾‹…‹”‹™‹¨‹¯‹½‹°‹Ç‹È‹=‹2€—‹= ‹ë‹ò‹ó‹ú‹ûŒŒ]ŒŒŒŒUŒŒ+Œ0Œ?ŒFŒTŒGŒ^Œ_‹Ø‹Í€“‹Ø ŒŒ•Œ–Œ©ŒªŒ´XŒÂŒ¾ŒÊPŒÖŒïŒş07E8YZŒoŒd€÷Œo ‡ ¡«O¹µÁGÍæõ'.</PQj_€ój ~…†—˜¢õ°¬¸í¹È×Şìßö÷aV€¢a *12IJT—b^jkz†‡˜™ü€ ÎÕÖïğúB: %*192CD©€§© v}~”•Ÿâ­©µÚ¶ÅÊÑÙÒãäTI€œT ‘‘‘ ‘8‘9‘C‘‹‘Q‘M‘Y‘ƒ‘Z‘i‘n‘s‘z‘‚‘{‘Œ‘ôé€¥ô ‘¼‘Ã‘Ä‘×‘Ø‘â’4‘ğ‘ì‘ø’,‘ù’’’’’’’#’+’$’5’6‘‘’€¥‘ ’d’k’l’~’’‰’Û’—’“’Ÿ’Ó’ ’¯’´’»’À’¼’Ã’Ê’Ò’Ë’Ü’İ’F’;€£’F “
+“““#“$“.“w“<“8“D“o“E“T“Y“`“n“a“x“y’í’â€˜’í “¥“¬“­“½“¾“È”“Ö“Ò“Ş”	“ß“î“ó“ú”“û””“‰“~€–“‰ ”>”E”F”U”V”`”¤”n”j”v”œ”w”†””›””¥”¦”#”€”# ”Ó”Ú”Û”ì”í”÷•;••••3•••$•2•%•<•=”¶”«€“”¶ •g•n•o•Š•‹•••Á•š•–•¢•À•£•²•¹•¿•º•Â•Ã•M•B€‚•M •ï•ö•÷––––K–$– –,–J–-–<–C–I–D–L–M•Ó•È€†•Ó –‚––‘–·–¸–Â–÷–Ç–Ã–Ï–ö–Ğ–ß–æ–õ–ç–î–ô–ï–ø–ù–]–R€¨–] ——%—&—<—=—G—|—L—H—T—{—U—d—k—z—l—s—y—t—}—~—	–ş€—	 —­—´—µ—Õ—Ö—à˜—å—á—í˜—î—ı˜˜˜˜˜˜˜˜——ƒ€•— ˜A˜H˜I˜d˜e˜o˜¤˜t˜p˜|˜£˜}˜Œ˜“˜¢˜”˜›˜¡˜œ˜¥˜¦˜'˜€‹˜' ˜×˜å˜æ™™	™™?™™™ ™>™!™0™7™=™8™@™A˜¶˜«€—˜¶ ™u™ƒ™„™©™ª™´™à™¹™µ™Á™ß™Â™Ñ™Ø™Ş™Ù™á™â™Q™F€™Q šššš/š0š:šfš?š;šGšešHšWš^šdš_šgšh™ò™ç€‚™ò š•šœšš»š¼šÆšûšËšÇšÓšúšÔšãšêšùšëšòšøšóšüšıšxšm€‘šx ›'›.›/›J›K›U›Š›Z›V›b›‰›c›r›y›ˆ›z››‡›‚›‹›Œ››€‹› ›µ›¼›½›×›Ø›âœ›ç›ã›ïœ›ğ›ÿœœœœœœœœ›œ›‘€‰›œ œAœHœIœbœcœmœ™œrœnœzœ˜œ{œŠœ‘œ—œ’œšœ›œ)œ~œ) œÌœÚœÛœıœş4	3%,2-56œ«œ €—œ« guv˜™£Ï¨¤°Î±ÀÇÍÈĞÑF;€—F ü !+W0,8V9HOUPXYáÖ€„á Œš›¿ÀÊøÏË×÷Øçîöïùúi^€i Ÿ#Ÿ*Ÿ+ŸEŸFŸPŸ…ŸUŸQŸ]Ÿ„Ÿ^ŸmŸtŸƒŸuŸ|Ÿ‚Ÿ}Ÿ†Ÿ‡Ÿ
+ÿ€‰Ÿ
+ Ÿ³ŸºŸ»ŸØŸÙŸã ŸèŸäŸğ Ÿñ       Ÿ—ŸŒ€†Ÿ—  = D E b c m ™ r n z ˜ { Š ‘ — ’ š › ! €† !  Ç Î Ï ì í ÷¡, ü ø¡¡+¡¡¡¡*¡¡#¡)¡$¡-¡. «  € « ¡`¡n¡o¡’¡“¡¡É¡¢¡¡ª¡È¡«¡º¡Á¡Ç¡Â¡Ê¡Ë¡>¡3€™¡> ¡ö¡ı¡ş¢¢¢%¢Z¢*¢&¢2¢Y¢3¢B¢I¢X¢J¢Q¢W¢R¢[¢\¡Û¡Ğ€¡Û ¢¢œ¢¢À¢Á¢Ë¢ö¢Ğ¢Ì¢Ø¢õ¢Ù¢è¢ï¢ô¢ğ¢÷¢ø¢l¢a€˜¢l £"£)£*£E£F£P£„£U£Q£]£ƒ£^£m£t£‚£u£…£†£¢ı€Š£ £¯£¶£·£Ñ£Ò£Ü¤£á£İ£é¤£ê£ù¤ ¤¤¤¤¤	¤¤£–£‹€‰£– ¤B¤I¤J¤j¤k¤u¤ª¤z¤v¤‚¤©¤ƒ¤’¤™¤¨¤š¤¡¤§¤¢¤«¤¬¤#¤€•¤# ¤ß¤í¤î¥¥¥¥I¥"¥¥*¥H¥+¥:¥A¥G¥B¥J¥K¤¼¤±€›¤¼ ¥y¥€¥¥ ¥¡¥«¥ß¥°¥¬¥¸¥Ş¥¹¥È¥Ï¥İ¥Ğ¥à¥á¥[¥P€’¥[ ¦¦¦¦2¦3¦=¦q¦B¦>¦J¦p¦K¦Z¦a¦o¦b¦r¦s¥ñ¥æ€¥ñ ¦›¦¢¦£¦¼¦½¦Ç¦û¦Ì¦È¦Ô¦ú¦Õ¦ä¦ë¦ù¦ì¦ü¦ı¦ƒ¦x€†¦ƒ §1§?§@§e§f§p§¥§u§q§}§¤§~§§”§£§•§œ§¢§§¦§§§§€¦§ §Ğ§×§Ø§ò§ó§ı¨)¨§ş¨
+¨(¨¨¨!¨'¨"¨*¨+§·§¬€€§· ¨V¨]¨^¨z¨{¨…¨±¨Š¨†¨’¨°¨“¨¢¨©¨¯¨ª¨²¨³¨;¨0€„¨; ¨ç¨õ¨ö©©©&©[©+©'©3©Z©4©C©J©Y©K©R©X©S©\©]¨Ã¨¸€¦¨Ã ©©ˆ©‰©©Ÿ©©©Ş©®©ª©¶©İ©·©Æ©Í©Ü©Î©Õ©Û©Ö©ß©à©m©b©m ªªªª5ª6ª@ªuªEªAªMªtªNª]ªdªsªeªlªrªmªvªw©ğ©å€“©ğ ª ª§ª¨ªÂªÃªÍ«ªÒªÎªÚ«ªÛªêªñ« ªòªùªÿªú««ª‡ª|€‰ª‡ «4«;«<«]«^«h«”«m«i«u«“«v«…«Œ«’««•«–««	€« «É«×«Ø«ü«ı¬¬3¬¬¬¬2¬¬$¬+¬1¬,¬4¬5«¦«›€›«¦ ¬^¬e¬f¬€¬¬‹¬·¬¬Œ¬˜¬¶¬™¬¨¬¯¬µ¬°¬¸¬¹¬E¬:€€¬E ¬å¬ì¬í­
+­­­J­­­"­I­#­2­9­H­:­A­G­B­K­L¬É¬¾€¬É ­u­|­}­—­˜­¢­×­§­£­¯­Ö­°­¿­Æ­Õ­Ç­Î­Ô­Ï­Ø­Ù­\­Q€‰­\ ®®®	®"®#®-®b®2®.®:®a®;®J®Q®`®R®Y®_®Z®c®d­é­Ş€‡­é ®‹®’®“®«®¬®¶®â®»®·®Ã®á®Ä®Ó®Ú®à®Û®ã®ä®t®i|®t ¯¯¯¯=¯>¯H¯t¯M¯I¯U¯s¯V¯e¯l¯r¯m¯u¯v®ô®é€®ô ¯¦¯­¯®¯Ï¯Ğ¯Ú°¯ß¯Û¯ç°¯è¯÷¯ş°¯ÿ°°¯†¯{€¯† °2°9°:°U°V°`°Œ°e°a°m°‹°n°}°„°Š°…°°°°€‚° °À°Î°Ï°ò°ó°ı±+±°ş±
+±*±±±!±)±"±,±-°°“€›° ±U±\±]±v±w±±¶±†±‚±±µ±±±¥±´±¦±­±³±®±·±¸±=±2€‡±= ±ã±ê±ë²²²²>²²²²=² ²/²6²<²7²?²@±È±½€„±È ²k²r²s²²²š²Æ²Ÿ²›²§²Å²¨²·²¾²Ä²¿²Ç²È²P²E€„²P ²ó²ú²û³³³"³W³'³#³/³V³0³?³F³U³G³N³T³O³X³Y²Ø²Í€²Ø ³Š³˜³™³»³¼³Æ³ò³Ë³Ç³Ó³ñ³Ô³ã³ê³ğ³ë³ó³ô³i³^€—³i ´´%´&´A´B´L´´Q´M´Y´€´Z´i´p´´q´x´~´y´‚´ƒ´³ù€‹´ ´´´Â´Ã´å´æ´ğµ´õ´ñ´ıµ´şµµµµµµ´“´ˆ€–´“ µFµMµNµhµiµsµ§µxµtµ€µ¦µµµ—µ¥µ˜µ¨µ©µ-µ"€ˆµ- µÑµØµÙµòµóµı¶2¶µş¶
+¶1¶¶¶!¶0¶"¶)¶/¶*¶3¶4µ¹µ®€‡µ¹ ¶b¶i¶j¶‰¶Š¶”¶É¶™¶•¶¡¶È¶¢¶±¶¸¶Ç¶¹¶À¶Æ¶Á¶Ê¶Ë¶D¶9€“¶D ¶ı···/·0·:·f·?·;·G·e·H·W·^·d·_·g·h¶Û¶Ğ€™¶Û ·•·œ··»·¼·Æ·ú·Ë·Ç·Ó·ù·Ô·ã·ê·ø·ë·û·ü·x·m€·x ¸'¸.¸/¸K¸L¸V¸Š¸[¸W¸c¸‰¸d¸s¸z¸ˆ¸{¸‹¸Œ¸¸€Œ¸ ¸³¸º¸»¸Ó¸Ô¸Ş¹¸ã¸ß¸ë¹¸ì¸û¹¹¹¹¹¸œ¸‘€„¸œ ¹G¹U¹V¹z¹{¹…¹º¹Š¹†¹’¹¹¹“¹¢¹©¹¸¹ª¹±¹·¹²¹»¹¼¹$¹€¤¹$ ¹é¹ğ¹ñººººYººº#ºQº$º3º:º@º;ºCºJºPºKºZº[¹Ì¹Á€›¹Ì @   À o À o ‚À o÷€æ/// Retrieves the identifier of the process that hosts the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentprocessid>.   À qÀ q‚À r€Ó/// Retrieves the control type of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentcontroltype>.   À s6À s6‚KÀ t?€÷/// Retrieves a localized description of the control type of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentlocalizedcontroltype>.   À u…À u…øÀ v[€Ä/// Retrieves the name of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentname>.   À wÀ w‚"À xm€Ú/// Retrieves the accelerator key for the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentacceleratorkey>.   À y§À y§‚À z“€Ú/// Retrieves the access key character for the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentaccesskey>.   À {ÃÀ {Ã‚%À |´€ß/// Indicates whether the element has keyboard focus.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currenthaskeyboardfocus>.   À }ìÀ }ì‚5À ~ç€é/// Indicates whether the element can accept keyboard focus.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiskeyboardfocusable>.   À €%À €%‚À €Ğ/// Indicates whether the element is enabled.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisenabled>.   À ‚1À ‚1‚.À ƒ-€ê/// Retrieves the Microsoft UI Automation identifier of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentautomationid>.   À „cÀ „c‚À …D€Ï/// Retrieves the class name of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentclassname>.   À †tÀ †t‚
+À ‡T€Î/// Retrieves the help text for the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext>.   À ˆ‚À ˆ‚‚ À ‰i€Ö/// Retrieves the culture identifier for the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentculture>.   À Š†À Š†‚'À ‹y€á/// Indicates whether the element is a control element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiscontrolelement>.   À Œ±À Œ±‚'À ¤€á/// Indicates whether the element is a content element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentiscontentelement>.   À ÜÀ Ü‚À Ò€ä/// Indicates whether the element contains a disguised password.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentispassword>.   À şÀ ş‚$À ‘ë€Û/// Retrieves the window handle of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentnativewindowhandle>.   À “&À “&‚,À ”(€ğ/// Retrieves a description of the type of UI item represented by the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentitemtype>.   À •VÀ •V‚À –=€Õ/// Indicates whether the element is off-screen.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisoffscreen>.   À —kÀ —k‚-À ˜q€é/// Retrieves a value that indicates the orientation of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentorientation>.   À ™œÀ ™œ‚À š‰€Û/// Retrieves the name of the underlying UI framework.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentframeworkid>.   À ›½À ›½‚<À œÃ€ô/// Indicates whether the element is required to be filled out on a form.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisrequiredforform>.   À ıÀ ı‚)À ø€é/// Retrieves the description of the status of an item in an element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentitemstatus>.   À  *À  *‚À ¡J/// Retrieves the coordinates of the rectangle that completely encloses the
+/// element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentboundingrectangle>.   À ¢EÀ ¢E‚^À £S€ë/// Retrieves the element that contains the text label for this element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentlabeledby>.   À ¤§À ¤§‚7À ¥´€ù/// Retrieves the Accessible Rich Internet Applications (ARIA) role of the
+/// element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariarole>.   À ¦âÀ ¦â‚OÀ §û/// Retrieves the Accessible Rich Internet Applications (ARIA) properties of
+/// the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariaproperties>.   À ©5À ©5‚7À ª4€í/// Indicates whether the element contains valid data for a form.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisdatavalidforform>.   À «pÀ «p‚€À ¬˜€ş/// Retrieves an array of elements for which this element serves as the
+/// controller.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentcontrollerfor>.   À ­ôÀ ­ô‚_À ®ÿ€ã/// Retrieves an array of elements that describe this element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentdescribedby>.   À °WÀ °W‚yÀ ±„/// Retrieves an array of elements that indicates the reading order after the
+/// current element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentflowsto>.   À ²ÔÀ ²Ô‚<À ³Ğ€ê/// Retrieves a description of the provider for this element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentproviderdescription>.   À µÀ µ‚À ¶	€ä/// Retrieves the cached ID of the process that hosts the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedprocessid>.   À ·(À ·(‚5À ¸8€ğ/// Retrieves a cached value that indicates the control type of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedcontroltype>.   À ¹aÀ ¹a‚WÀ ºx/// Retrieves the cached localized description of the control type of the
+/// element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlocalizedcontroltype>.   À »¼À »¼üÀ ¼˜€Ê/// Retrieves the cached name of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedname>.   À ½¼À ½¼‚&À ¾®€à/// Retrieves the cached accelerator key for the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedacceleratorkey>.   À ¿æÀ ¿æ‚À ÀØ€à/// Retrieves the cached access key character for the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedaccesskey>.   À ÂÀ Â‚6À Ã
+€ò/// A cached value that indicates whether the element has keyboard focus.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhaskeyboardfocus>.   À Ä@À Ä@‚VÀ Å^
+/// Retrieves a cached value that indicates whether the element can accept
+/// keyboard focus.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediskeyboardfocusable>.   À ÆšÀ Æš‚#À Ç™€í/// Retrieves a cached value that indicates whether the element is enabled.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisenabled>.   À ÈÁÀ ÈÁ‚2À ÉÃ€ğ/// Retrieves the cached Microsoft UI Automation identifier of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedautomationid>.   À Ê÷À Ê÷‚À ËŞ€Õ/// Retrieves the cached class name of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedclassname>.   À ÍÀ Í‚À Íò€Ô/// Retrieves the cached help text for the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext>.   À ÏÀ Ï‚"À Ğ)€ø/// Retrieves a cached value that indicates the culture associated with the
+/// element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedculture>.   À ÑDÀ ÑD‚HÀ ÒZ/// Retrieves a cached value that indicates whether the element is a control
+/// element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediscontrolelement>.   À ÓÀ Ó‚8À Ô–€ô/// A cached value that indicates whether the element is a content element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachediscontentelement>.   À ÕÌÀ ÕÌ‚?À Öå/// Retrieves a cached value that indicates whether the element contains a
+/// disguised password.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedispassword>.   À ØÀ Ø‚(À Ù€á/// Retrieves the cached window handle of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachednativewindowhandle>.   À Ú;À Ú;‚:À ÛM€ş/// Retrieves a cached string that describes the type of item represented by
+/// the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheditemtype>.   À ÜyÀ Üy‚,À İ}€ò/// Retrieves a cached value that indicates whether the element is off-screen.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisoffscreen>.   À Ş©À Ş©‚1À ßµ€ï/// Retrieves a cached value that indicates the orientation of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedorientation>.   À àŞÀ àŞ‚CÀ áó/// Retrieves the cached name of the underlying UI framework associated with
+/// the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedframeworkid>.   À ã%À ã%‚]À äN/// Retrieves a cached value that indicates whether the element is required to
+/// be filled out on a form.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisrequiredforform>.   À å†À å†‚/À æ‰€ñ/// Retrieves a cached description of the status of an item within an element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheditemstatus>.   À ç¹À ç¹‚À èß	/// Retrieves the cached coordinates of the rectangle that completely encloses
+/// the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedboundingrectangle>.   À éØÀ éØ‚hÀ êò€õ/// Retrieves the cached element that contains the text label for this
+/// element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlabeledby>.   À ìDÀ ìD‚;À íW€ÿ/// Retrieves the cached Accessible Rich Internet Applications (ARIA) role of
+/// the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedariarole>.   À îƒÀ îƒ‚SÀ ï¢/// Retrieves the cached Accessible Rich Internet Applications (ARIA)
+/// properties of the element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedariaproperties>.   À ğÚÀ ğÚ‚ZÀ ñş/// Retrieves a cached value that indicates whether the element contains valid
+/// data for the form.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedisdatavalidforform>.   À ó8À ó8‚‘À ôs/// Retrieves a cached array of UI Automation elements for which this element
+/// serves as the controller.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedcontrollerfor>.   À õÍÀ õÍ‚bÀ öİ€è/// Retrieves a cached array of elements that describe this element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cacheddescribedby>.   À ø3À ø3‚{À ùd/// Retrieves a cached array of elements that indicate the reading order after
+/// the current element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedflowsto>.   À ú²À ú²‚@À û´€ğ/// Retrieves a cached description of the provider for this element.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedproviderdescription>.   »o»p»v»‰»wºaºa»’/// Sets the keyboard focus to this UI Automation element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-setfocus>.   ¼¼‚Y½-
+/// Retrieves the unique identifier assigned to the UI element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getruntimeid>.   ¿¹¿¹¿Ã   ¿Î¿Î!¿æ  ¾`¾`‚ó¿ª%/// Retrieves the first child or descendant element that matches the specified
+/// condition.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirst>.   À BÀ BÀ B¨   À B³À B³!À BË  À AWÀ AW‚ßÀ B‘/// Returns all UI Automation elements that satisfy the specified condition.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findall>.   À FÀ FÀ F   À F*À F*!À FB   À FQÀ FQ'À Fl  À D:À D:ƒûÀ Eü›/// Retrieves the first child or descendant element that matches the specified
+/// condition, prefetches the requested properties and control patterns, and
+/// stores the prefetched items in the cache.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirstbuildcache>.   À JÀ JÀ J   À JÀ J!À J5   À JDÀ JD'À J_  À H9À H9ƒíÀ IñŒ/// Returns all UI Automation elements that satisfy the specified condition,
+/// prefetches the requested properties and control patterns, and stores the
+/// prefetched items in the cache.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findallbuildcache>.   À MtÀ Mt'À M  À L*À L*ƒÀ M]/// Retrieves a new UI Automation element with an updated cache.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-buildupdatedcache>.   À PÀ PÀ P  À O4À O4‚]À Pu#/// Retrieves the current value of a property for this UI Automation element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue>.   À SÀ SÀ S%   À S5À S5À S:  À Q•À Q•ƒ À RöA/// Retrieves a property value for this UI Automation element, optionally
+/// ignoring any default value.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalueex>.   À UğÀ UğÀ V   À T™À T™‚ZÀ UÙ"/// Retrieves a property value from the cache for this UI Automation element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue>.   À X„À X„À X”   À X¤À X¤À X©  À V÷À V÷ƒÀ XfO/// Retrieves a property value from the cache for this UI Automation element,
+/// optionally ignoring any default value.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalueex>.À \öÀ \öÀ \ö   À ]
+À ]
+À ]  À ZÀ Z„ğÀ \â‚º/// Retrieves the control pattern interface of the specified pattern on this
+/// UI Automation element.
+///
+/// This method uses the [ComInterface.type] method to retrieve metadata about
+/// the target interface defined by [T], including its IID (Interface ID) and
+/// instantiation logic.
+///
+/// All COM interfaces provided by this package are pre-registered. Custom COM
+/// interfaces must be registered manually using the [ComInterface.register]
+/// method before calling this method.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpatternas>.À a÷À a÷À a÷   À bÀ bÀ b  À ^ûÀ ^û„üÀ aä‚È/// Retrieves the control pattern interface of the specified pattern from the
+/// cache of this UI Automation element.
+///
+/// This method uses the [ComInterface.type] method to retrieve metadata about
+/// the target interface defined by [T], including its IID (Interface ID) and
+/// instantiation logic.
+///
+/// All COM interfaces provided by this package are pre-registered. Custom COM
+/// interfaces must be registered manually using the [ComInterface.register]
+/// method before calling this method.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpatternas>.   À e^À e^À em  À cûÀ cû‚çÀ eL8/// Retrieves the IUnknown interface of the specified control pattern on this
+/// UI Automation element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpattern>.   À hVÀ hVÀ he  À fæÀ fæ‚óÀ hEF/// Retrieves from the cache the IUnknown interface of the specified control
+/// pattern of this UI Automation element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpattern>.   À iİÀ iİ‚ƒÀ k/// Retrieves from the cache the parent of this UI Automation element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedparent>.   À ldÀ ld‚˜À m¢/// Retrieves the cached child elements of this UI Automation element.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedchildren>.   À şFÀ şFÀ şU   À şdÀ şdÀ şs À şÀ şÀ şÀ ş&À şÀ üöÀ üö‚À ş/	/// Retrieves a point on the element that can be clicked.
+///
+/// Throws a [WindowsException] on failure.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getclickablepoint>.  À ÿÀ ÿÀ ÿÀ ÿCÀ ÿ   …µ…µÀ ù†Á/// Exposes methods and properties for a UI Automation element, which represents
+/// a UI item.
+///
+/// To learn more, see
+/// <https://learn.microsoft.com/windows/win32/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement>.
+///
+/// {@category com}  S À ÿ¬À ÿ–À ÿ¬  À ÿıÀ ÿµPÀ ÿı  À ŒÀ 	€À Œ  ÀeÀ œ€ÒÀe  À;Àr€ĞÀ;  À3ÀF À3  À7ÀJ€şÀ7  ÀÀL€ÑÀ  ÀÉÀ!€¿ÀÉ  À®Àä€ãÀ®  ÀsÀË€¾Às  ÀWÀ€âÀW  À	=Às€İÀ	=  À
+À	T€ÜÀ
+  À
+èÀ
+4€ÅÀ
+è  À±À
+ı€ÄÀ±  À@ÀÅ€ŠÀ@  ÀĞÀS€ÀĞ  ÀLÀå{ÀL  ÀËÀd}ÀË  ÀaÀå€›Àa  À À„€‹À   ÀÀ€•À  À(À¬€À(  À§À@€‚À§  À-ÀÆ€…À-  À¶ÀO{À¶  ÀJÀÎ€“ÀJ  ÀáÀe€Àá  ÀuÀù€Àu  ÀóÀŒyÀó  ÀpÀ	€‚Àp  ÀöÀ€‚Àö  À|À|À|  ÀşÀ•€†Àş  À›À€À›  ÀÀ²}À  ÀšÀ3}Àš  À0À´€’À0  À±ÀJ€ƒÀ±  ÀMÀÑ€‘ÀM  ÀÌÀf€‚ÀÌ  ÀgÀì€Àg  ÀûÀ€Àû  ÀÀ€•À  ÀÀ«€„À  À®À3€“À®  ÀEÀÊ€‘ÀE  ÀÚÀ_€ÀÚ  ÀlÀğ€šÀl  ÀõÀzÀõ  ÀsÀ|Às  À ÀŒ€šÀ   À ¦À *€ŠÀ ¦  À!4À ¸€”À!4  À!ÌÀ!P€À!Ì  À"JÀ!ã€À"J  À"ÏÀ"h€„À"Ï  À#WÀ"ğzÀ#W  À#êÀ#n€’À#ê  À$€À$€À$€  À%À$—€À%  À%À%)xÀ%  À&À%¥€À&  À&‘À&*€À&‘  À'À&¯{À'  À'—À'.€…À'—  À(3À'·€À(3  À(°À(I|À(°  À)0À(É|À)0  À)ÅÀ)I€‘À)Å  À*EÀ)Ş€‚À*E  À*àÀ*d€À*à  À+^À*ø€À+^  À+øÀ+}€À+ø  À,‹À,€À,‹  À-À,¡€”À-  À- À-9€ƒÀ-   À.;À-À€’À.;  À.ÑÀ.V€À.Ñ  À/eÀ.ê€ŒÀ/e  À/öÀ/z€™À/ö  À0ËÀ0€ÅÀ0Ë     À ÿTÀ ÿT±‹À ÿj
+/// @nodoc  À1N À1k    À1HÀ1H&      À1rÀ1sÀ1yÀ1ŒÀ1zÀ1À1‘À1rÀ1r€‰À1Í   À1ÿÀ2 À2À2À2À2À2À1ÿÀ1ÿSÀ22   À0áÀ0âÀ0áÀ0ásÀ0÷         …5…9…:…H…±…L…Z…d…n…o…w…®…x…~…­…………‹…‘…—……£…©…„×€Û…</// `{d22108aa-8ac5-49a5-837b-37bbb3d7591e}`.
+///
+/// @nodoc   ˆí KNy|€´FGZtu”Íîï‚‚"‚@‚Z‚v‚›‚²‚Ì‚æ‚ÿƒƒ2ƒKƒbƒzƒ—ƒ³ƒËƒãƒı„„C„k„‘„¼„Ö„×……	……J…X…b…l…±…´…µ††††0†£†§†»‡‡P‡V‡¤‡ôˆˆ'ˆgˆhˆ°ˆÃˆÉ‰‰O‰U‰›‰¹‰ôŠŠŠAŠ\ŠŠ½Šä‹%‹0‹L‹p‹À‹Ë‹åŒŒWŒbŒˆŒ¶ŒÌŒåŒô&HR]­ÃÜë?ITx¤ïú$V‘œÈü<Gp¡Üç‘‘E‘…‘‘¶‘ä’.’9’^’‹’Õ’à““0“q“|“Ÿ“Ê”””8”b””©”Í”ù•5•@•„•Æ––P–Š–±–ü—6——Ï˜˜^˜©˜ß™™D™}™£™åš)škšµ› ›D››Ñœœ\œœÔœ÷9o’Ô\”¹ıŸ?ŸŠŸÒ  \  æ¡1¡h¡Œ¡Î¢¢_¢–¢º¢û£?£‰£Ë¤¤d¤¯¤ç¥¥N¥š¥ä¦,¦v¦¶§ §9§_§ª§ì¨.¨t¨¶¨ï©©`©˜©ãª/ªzª¼««W«™«Ñ«ö¬8¬z¬¼­­O­‘­Ü®®g®¥®ç¯7¯y¯É°°O°‘°È°ì±0±p±»²²C²‰²Ë³³\³’³µ³÷´;´†´¼´ßµ µbµ¬µì¶7¶ƒ¶Î··)·k·µ·ÿ¸E¸¸Í¹¹O¹t¹¿¹ãººSº^º_ºœº¢ºĞºÖºï»m»‹»Ÿ»Ê»ü¼ ¼¼C¼I¼w¼}¼–½½>½z½´½Ë½â¾¾¾0¾E¾Y¾]¾^¾¯¾À¾Æ¾ô¾ú¿¿’¿µ¿Ê¿ñ¿÷À @*À @CÀ @…À @ŒÀ @£À @¶À @ÙÀ @ßÀ A À AÀ A6À APÀ ATÀ AUÀ A¤À AªÀ AØÀ AŞÀ A÷À BtÀ BšÀ B¯À BÖÀ BÜÀ CÀ C(À ChÀ CoÀ C†À C™À C¼À CÂÀ CãÀ CôÀ DÀ D3À D7À D8À D‰À DØÀ EÀ EÀ E<À EBÀ E[À EäÀ FÀ F&À FMÀ FzÀ F€À F³À FÌÀ FêÀ F÷À GÀ G)À GOÀ G^À GgÀ GnÀ G…À G˜À G»À GÁÀ GâÀ GóÀ HÀ H2À H6À H7À H†À HÕÀ HúÀ I À I.À I4À IMÀ IÔÀ JÀ JÀ J@À JmÀ JsÀ J¦À J¿À JÛÀ JèÀ J÷À KÀ K@À KOÀ KXÀ K_À KvÀ K‰À K¬À K²À KÓÀ KäÀ L	À L#À L'À L(À LkÀ LqÀ LŸÀ L¥À L¾À MEÀ MpÀ MÀ M£À MßÀ MøÀ NGÀ NNÀ NeÀ NÀ N¤À NªÀ NÔÀ NîÀ OÀ O-À O1À O2À O‚À OˆÀ O¶À O¼À OÕÀ PbÀ P«À PÙÀ Q'À Q>À QRÀ QuÀ Q{À QÀ Q’À Q“À QßÀ RÀ RÀ R5À R;À RTÀ RãÀ SÀ S1À SNÀ STÀ S‚À S›À S¿À SÌÀ SàÀ TÀ TÀ T$À T+À TBÀ TVÀ TyÀ TÀ T’À T–À T—À TçÀ TíÀ UÀ U!À U:À UÆÀ VÀ V<À V‰À V À V´À V×À VİÀ VğÀ VôÀ VõÀ WEÀ WrÀ WxÀ W¦À W¬À WÅÀ XSÀ X€À X À X½À XÃÀ XñÀ Y
+À Y-À Y:À YNÀ YyÀ Y‰À Y’À Y™À Y°À YÄÀ YçÀ YíÀ Z À ZÀ ZÀ ZTÀ ZqÀ ZwÀ ZÈÀ [À [3À [9À [ŠÀ [ÙÀ \À \À \6À \<À \UÀ \ŞÀ ]&À ]TÀ ]À ]´À ]ÍÀ ^À ^À ^'À ^>À ^YÀ ^|À ^‚À ^ÈÀ ^áÀ ^ôÀ ^øÀ ^ùÀ _IÀ _tÀ _zÀ _ËÀ `À `6À `<À `À `ÜÀ aÀ aÀ a9À a?À aXÀ aàÀ b'À bUÀ b€À bµÀ bÎÀ cÀ cÀ c'À c>À cYÀ c|À c‚À cÈÀ cáÀ côÀ cøÀ cùÀ dIÀ dfÀ dlÀ dšÀ d À d¹À e@À ezÀ eµÀ fÀ fÀ f5À fXÀ f^À f‡À f À fÅÀ fßÀ fãÀ fäÀ g3À g`À gfÀ g”À gšÀ g³À h9À hrÀ h­À húÀ iÀ i,À iOÀ iUÀ i~À i—À i¼À iÖÀ iÚÀ iÛÀ j$À j*À jXÀ j^À jwÀ jüÀ k(À k\À k–À k­À kÁÀ käÀ kêÀ lÀ lÀ lCÀ l]À laÀ lbÀ l«À l±À lßÀ låÀ lşÀ m…À m¸À mîÀ n,À nCÀ nYÀ n|À n‚À n¦À nºÀ nßÀ nùÀ nıÀ nşÀ oDÀ oJÀ ocÀ oíÀ p
+À p6À puÀ pŒÀ p À pÃÀ pÉÀ pëÀ pıÀ qÀ qÀ qÀ qGÀ qMÀ qfÀ qòÀ r À rLÀ rÀ r¤À r¸À rÛÀ ráÀ sÀ sÀ s/À s3À s4À s€À s†À sŸÀ t4À t]À t’À tÜÀ tóÀ uÀ u*À u0À uRÀ udÀ u~À u‚À uƒÀ u¬À u²À uËÀ vPÀ viÀ vÀ vØÀ vïÀ wÀ w&À w,À wNÀ w`À wzÀ w~À wÀ w´À wºÀ wÓÀ xbÀ x…À xºÀ xşÀ yÀ y)À yLÀ yRÀ ytÀ y†À y À y¤À y¥À yßÀ yåÀ yşÀ zˆÀ z¦À zÛÀ {À {1À {EÀ {hÀ {nÀ {À {¢À {¼À {ÀÀ {ÁÀ {ùÀ {ÿÀ |À |©À |ÎÀ |úÀ }@À }WÀ }kÀ }À }”À }¶À }ÈÀ }åÀ }éÀ }êÀ ~)À ~/À ~HÀ ~ÜÀ À 0À yÀ À ¤À ÇÀ ÍÀ ïÀ €À €À €"À €#À €SÀ €YÀ €rÀ €üÀ À FÀ …À œÀ °À ÓÀ ÙÀ ûÀ ‚À ‚*À ‚.À ‚/À ‚vÀ ‚|À ‚•À ƒ"À ƒCÀ ƒxÀ ƒºÀ ƒÑÀ ƒåÀ „À „À „0À „BÀ „\À „`À „aÀ „À „–À „¯À …9À …WÀ …ŒÀ …ËÀ …âÀ …öÀ †À †À †AÀ †SÀ †mÀ †qÀ †rÀ †¡À †§À †ÀÀ ‡IÀ ‡fÀ ‡›À ‡ÙÀ ‡ğÀ ˆÀ ˆ'À ˆ-À ˆOÀ ˆaÀ ˆ{À ˆÀ ˆ€À ˆ¸À ˆ¾À ˆ×À ‰_À ‰zÀ ‰¦À ‰ãÀ ‰úÀ ŠÀ Š1À Š7À ŠYÀ ŠkÀ ŠÀ ŠƒÀ Š„À Š¾À ŠÄÀ ŠİÀ ‹nÀ ‹“À ‹¿À ŒÀ ŒÀ Œ0À ŒSÀ ŒYÀ Œ{À ŒÀ ŒªÀ Œ®À Œ¯À ŒéÀ ŒïÀ À ™À ¾À êÀ 0À GÀ [À ~À „À ¦À ¸À ÕÀ ÙÀ ÚÀ À #À <À ÇÀ æÀ À RÀ iÀ }À  À ¦À ÈÀ ÚÀ ÷À ûÀ üÀ ‘.À ‘4À ‘MÀ ‘àÀ ’À ’5À ’}À ’”À ’¨À ’ËÀ ’ÑÀ ’óÀ “À “À “#À “$À “uÀ “{À “”À ”À ”:À ”oÀ ”­À ”ÄÀ ”ØÀ ”ûÀ •À •#À •5À •OÀ •SÀ •TÀ •‡À •À •¦À –2À –RÀ –~À –¿À –ÖÀ –êÀ —À —À —5À —GÀ —dÀ —hÀ —iÀ —°À —¶À —ÏÀ ˜[À ˜†À ˜²À ˜óÀ ™
+À ™À ™AÀ ™GÀ ™iÀ ™{À ™•À ™™À ™šÀ ™ÓÀ ™ÙÀ ™òÀ š~À šÀ šÓÀ ›À ›+À ›?À ›bÀ ›hÀ ›ŠÀ ›œÀ ›¶À ›ºÀ ›»À œÀ œÀ œ&À œ¸À œŞÀ 
+À QÀ hÀ |À ŸÀ ¥À ÇÀ ÙÀ öÀ úÀ ûÀ CÀ IÀ bÀ íÀ ŸÀ ŸAÀ ŸÀ Ÿ˜À Ÿ¬À ŸÏÀ ŸÕÀ Ÿ÷À  	À  #À  'À  (À  vÀ  …À  ‹À  ¤À ¡6À ¡eÀ ¡À ¡×À ¡îÀ ¢À ¢%À ¢+À ¢>À ¢BÀ ¢CÀ ¢À ¢”À ¢­À £7À £fÀ £šÀ £ÙÀ £ğÀ ¤À ¤'À ¤-À ¤OÀ ¤aÀ ¤†À ¤ À ¤¤À ¤¥À ¤òÀ ¥À ¥À ¥ À ¥©À ¥ÆÀ ¥ûÀ ¦9À ¦PÀ ¦dÀ ¦‡À ¦À ¦¯À ¦ÁÀ ¦ÛÀ ¦ßÀ ¦àÀ §/À §BÀ §HÀ §aÀ §ğÀ ¨À ¨HÀ ¨ŒÀ ¨£À ¨·À ¨ÚÀ ¨àÀ ©À ©À ©.À ©2À ©3À ©wÀ ©}À ©–À ª)À ªPÀ ª|À ªÄÀ ªÛÀ ªïÀ «À «À «:À «LÀ «iÀ «mÀ «nÀ «¸À «ÊÀ «ĞÀ «éÀ ¬wÀ ¬¯À ¬ãÀ ­&À ­=À ­QÀ ­tÀ ­zÀ ­œÀ ­®À ­ÓÀ ­íÀ ­ñÀ ­òÀ ®3À ®9À ®RÀ ®ŞÀ ¯À ¯HÀ ¯‰À ¯ À ¯´À ¯×À ¯İÀ ¯ÿÀ °À °6À °PÀ °TÀ °UÀ °¥À °¼À °ÂÀ °ÛÀ ±cÀ ±•À ±ÉÀ ²À ²À ²1À ²TÀ ²ZÀ ²|À ²À ²³À ²ÍÀ ²ÑÀ ²ÒÀ ³À ³À ³1À ³ÅÀ ³íÀ ´"À ´kÀ ´‚À ´–À ´¹À ´¿À ´áÀ ´óÀ µÀ µÀ µÀ µWÀ µ]À µvÀ µÿÀ ¶À ¶GÀ ¶…À ¶œÀ ¶°À ¶ÓÀ ¶ÙÀ ¶ûÀ ·À ·!À ·%À ·&À ·uÀ ·{À ·”À ¸À ¸LÀ ¸xÀ ¸¸À ¸ÏÀ ¸ãÀ ¹À ¹À ¹.À ¹@À ¹ZÀ ¹^À ¹_À ¹«À ¹ºÀ ¹ÀÀ ¹ÙÀ ºmÀ º•À ºÊÀ »À »*À »>À »aÀ »gÀ »‰À »›À »µÀ »¹À »ºÀ »êÀ »ğÀ ¼	À ¼À ¼¥À ¼ÚÀ ½À ½*À ½>À ½aÀ ½gÀ ½‰À ½›À ½µÀ ½¹À ½ºÀ ½öÀ ½üÀ ¾À ¾£À ¾ÅÀ ¾úÀ ¿=À ¿TÀ ¿hÀ ¿‹À ¿‘À ¿³À ¿ÅÀ ¿ßÀ ¿ãÀ ¿äÀ À%À À+À ÀDÀ ÀÍÀ ÀêÀ ÁÀ Á]À ÁtÀ ÁˆÀ Á«À Á±À ÁÓÀ ÁåÀ ÁÿÀ ÂÀ ÂÀ ÂPÀ ÂVÀ ÂoÀ ÂÿÀ Ã#À ÃOÀ Ã”À Ã«À Ã¿À ÃâÀ ÃèÀ Ä
+À ÄÀ Ä9À Ä=À Ä>À Ä‹À Ä¡À Ä§À ÄÀÀ ÅSÀ ÅzÀ Å¦À ÅîÀ ÆÀ ÆÀ Æ<À ÆBÀ ÆdÀ ÆvÀ Æ“À Æ—À Æ˜À ÆæÀ ÆìÀ ÇÀ ÇÀ Ç«À Ç×À ÈÀ È,À È@À ÈcÀ ÈiÀ È‹À ÈÀ ÈºÀ È¾À È¿À ÉÀ ÉÀ É,À É¸À ÉØÀ ÊÀ ÊNÀ ÊeÀ ÊyÀ ÊœÀ Ê¢À ÊÄÀ ÊÖÀ ÊğÀ ÊôÀ ÊõÀ Ë+À Ë1À ËJÀ ËÓÀ ËğÀ Ì%À ÌcÀ ÌzÀ ÌÀ Ì±À Ì·À ÌÙÀ ÌëÀ ÍÀ Í	À Í
+À Í@À ÍFÀ Í_À ÍçÀ ÎÀ Î8À ÎuÀ ÎŒÀ Î À ÎÃÀ ÎÉÀ ÎëÀ ÎıÀ ÏÀ ÏÀ ÏÀ ÏjÀ ÏyÀ ÏÀ Ï˜À ĞÀ Ğ9À ĞeÀ Ğ¡À Ğ¸À ĞÌÀ ĞïÀ ĞõÀ ÑÀ Ñ)À Ñ=À ÑAÀ ÑBÀ Ñ‘À Ñ À Ñ¦À Ñ¿À ÒOÀ ÒsÀ ÒŸÀ ÒäÀ ÒûÀ ÓÀ Ó2À Ó8À ÓZÀ ÓlÀ Ó‰À ÓÀ ÓÀ ÓÜÀ ÓâÀ ÓûÀ Ô‹À Ô¯À ÔÛÀ Õ À Õ7À ÕKÀ ÕnÀ ÕtÀ Õ–À Õ¨À ÕÅÀ ÕÉÀ ÕÊÀ ÖÀ Ö1À Ö7À ÖPÀ ÖÚÀ ÖøÀ ×$À ×cÀ ×zÀ ×À ×±À ×·À ×ÙÀ ×ëÀ ØÀ ØÀ ØÀ ØFÀ ØLÀ ØeÀ Ø÷À ÙÀ ÙKÀ Ù’À Ù©À Ù½À ÙàÀ ÙæÀ ÚÀ ÚÀ Ú4À Ú8À Ú9À ÚˆÀ Ú›À Ú¡À ÚºÀ ÛBÀ Û^À Û“À ÛĞÀ ÛçÀ ÛûÀ ÜÀ Ü$À ÜFÀ ÜXÀ ÜrÀ ÜvÀ ÜwÀ ÜÈÀ ÜÎÀ ÜçÀ İrÀ İ‘À İ½À İıÀ ŞÀ Ş(À ŞKÀ ŞQÀ ŞsÀ Ş…À Ş¢À Ş¦À Ş§À ŞõÀ ŞûÀ ßÀ ßŸÀ ßÉÀ ßõÀ à5À àLÀ à`À àƒÀ à‰À à«À à½À à×À àÛÀ àÜÀ á+À á>À áDÀ á]À áèÀ âÀ â<À â|À â“À â§À âÊÀ âĞÀ âòÀ ãÀ ãÀ ã"À ã#À ãtÀ ã“À ã™À ã²À äCÀ ähÀ ä”À äÚÀ äñÀ åÀ å(À å.À åPÀ åbÀ åÀ åƒÀ å„À åÕÀ åÛÀ åôÀ æ~À æœÀ æÑÀ çÀ ç'À ç;À ç^À çdÀ ç†À ç˜À ç²À ç¶À ç·À èÀ èÀ è!À è:À èËÀ èùÀ é$À éjÀ éÀ é•À é¸À é¾À éÑÀ éÕÀ éÖÀ êÀ ê.À ê4À êMÀ êÖÀ ëÀ ë8À ëvÀ ëÀ ë¡À ëÄÀ ëÊÀ ëìÀ ëşÀ ì#À ì=À ìAÀ ìBÀ ì’À ì¥À ì«À ìÄÀ íLÀ íhÀ íÀ íÚÀ íñÀ îÀ î(À î.À îPÀ îbÀ î|À î€À îÀ îÉÀ îêÀ îğÀ ï	À ï—À ï¹À ïîÀ ğ1À ğHÀ ğ\À ğÀ ğ…À ğ§À ğ¹À ğÓÀ ğ×À ğØÀ ñ)À ñBÀ ñHÀ ñaÀ ñóÀ òÀ òEÀ òŒÀ ò£À ò·À òÚÀ òàÀ óÀ óÀ ó1À ó5À ó6À ó†À ó¦À ó¬À óÅÀ ôRÀ ô‰À ô½À ôÿÀ õÀ õ*À õMÀ õSÀ õuÀ õ‡À õ¬À õÆÀ õÊÀ õËÀ öÀ öÀ ö1À ö¼À öñÀ ÷%À ÷eÀ ÷|À ÷À ÷³À ÷¹À ÷ÛÀ ÷íÀ øÀ ø,À ø0À ø1À ø‚À øÀ ø£À ø¼À ùCÀ ùtÀ ù¨À ùäÀ ùûÀ úÀ ú2À ú8À úZÀ úlÀ ú‘À ú«À ú¯À ú°À ú÷À úıÀ ûÀ û©À ûĞÀ üÀ üMÀ üdÀ üxÀ ü›À ü¡À üÃÀ üÕÀ üïÀ üóÀ üôÀ ı0À ı6À ıdÀ ıjÀ ıƒÀ ş
+À ş(À şBÀ ş`À şÀ ş‡À şÔÀ ÿÀ ÿ
+À ÿÀ ÿÀ ÿQÀ ÿSÀ ÿTÀ ÿ_À ÿ”À ÿ³À ÿûÀ À À /À €À †À ŠÀ šÀ ®À ÂÀ ØÀ õÀ
+À+ÀQÀYÀ_ÀcÀpÀ„À˜À®ÀËÀàÀÀ'À/À5À9ÀDÀXÀlÀ‚ÀŸÀ´ÀÕÀùÀÀ'À-À1ÀHÀ\ÀpÀ†À£À¸ÀÙÀıÀ#À+À1À5ÀJÀ^ÀrÀˆÀ¥ÀÉÀøÀ ÀÀ
+ÀÀ3ÀGÀ]ÀzÀ”ÀµÀ½ÀÃÀÇÀâÀöÀ
+À À=ÀWÀyÀšÀ¢À¨À¬ÀÉÀİÀñÀÀ$À>À_ÀgÀmÀqÀ‹ÀŸÀ³ÀÉÀæÀ À"ÀCÀKÀQÀUÀqÀ…À™À¯ÀÌÀåÀ	À	)À	1À	7À	;À	RÀ	fÀ	zÀ	À	­À	ÆÀ	âÀ
+
+À
+À
+À
+À
+2À
+FÀ
+ZÀ
+pÀ
+À
+¦À
+ÔÀ
+ÜÀ
+âÀ
+æÀ
+ûÀÀ#À9ÀVÀoÀÀ¥À«À¯ÀÃÀ×ÀëÀ4À:À>ÀQÀeÀyÀÄÀÊÀÎÀãÀ÷ÀFÀJÀbÀvÀÅÀÉÀãÀ÷ÀÀUÀ[À_À‚À–ÀªÀôÀúÀşÀÀ%À9ÀƒÀ‰ÀÀªÀ¾ÀÒÀÀ"À&À>ÀRÀ¡À¥ÀÄÀØÀ'À+ÀMÀaÀ°À´ÀÌÀàÀôÀ>ÀDÀHÀcÀwÀ‹ÀÕÀÛÀßÀ÷ÀÀÀiÀoÀsÀŠÀÀíÀñÀÀÀjÀnÀÀ¡ÀğÀôÀÀ'ÀvÀzÀ“À§ÀøÀüÀÀ1ÀEÀÀ•À™À°ÀÄÀÀÀ1ÀEÀ”À˜À²ÀÆÀÚÀ$À*À.ÀHÀ\À«À¯ÀÏÀãÀ÷ÀAÀGÀKÀdÀxÀÆÀÊÀêÀşÀÀ[ÀaÀeÀ}À‘À¥ÀïÀõÀùÀÀ$À8À‚ÀˆÀŒÀ©À½ÀÀÀ1ÀEÀYÀ¢À¨À¬ÀÈÀÜÀğÀ9À?ÀCÀ]ÀqÀ…ÀÎÀÔÀØÀîÀÀÀ`ÀfÀjÀŒÀ ÀïÀóÀ
+ÀÀmÀqÀŠÀÀ²ÀüÀ À À (À <À PÀ šÀ  À ¤À ¶À ÊÀ ŞÀ!(À!.À!2À!NÀ!bÀ!vÀ!ÀÀ!ÆÀ!ÊÀ!áÀ!õÀ"DÀ"HÀ"fÀ"zÀ"ÉÀ"ÍÀ"îÀ#À#QÀ#UÀ#lÀ#€À#”À#ŞÀ#äÀ#èÀ$À$À$*À$tÀ$zÀ$~À$•À$©À$½À%À%À%À%'À%;À%ŠÀ%À%£À%·À&À&
+À&(À&<À&‹À&À&­À&ÁÀ'À'À',À'@À'‘À'•À'µÀ'ÉÀ'İÀ('À(-À(1À(GÀ([À(ªÀ(®À(ÇÀ(ÛÀ)*À).À)GÀ)[À)oÀ)¹À)¿À)ÃÀ)ÜÀ)ğÀ*?À*CÀ*bÀ*vÀ*ŠÀ*ÔÀ*ÚÀ*ŞÀ*öÀ+
+À+XÀ+\À+{À+À+£À+ìÀ+òÀ+öÀ,À,!À,5À,À,…À,‰À,ŸÀ,³À,ÇÀ-À-À-À-7À-KÀ-šÀ-À-¾À-ÒÀ-æÀ./À.5À.9À.TÀ.hÀ.|À.ÅÀ.ËÀ.ÏÀ.èÀ.üÀ/À/YÀ/_À/cÀ/xÀ/ŒÀ/ À/êÀ/ğÀ/ôÀ0À0)À0=À0SÀ0pÀ0’À0·À0¿À0ÅÀ0ÉÀ0ŞÀ0àÀ0áÀ0ëÀ1À1FÀ1oÀ1pÀ1À1šÀ1ÜÀ1üÀ1ıÀ2À2'À2SÀ2U   IID_IUIAutomationElementIUIAutomationElementIUIAutomationElementVtblIUIAutomationElementCompanion  ÔÚ

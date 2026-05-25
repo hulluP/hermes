@@ -1,0 +1,12 @@
+0 verbose cli /opt/homebrew/Cellar/node/26.0.0/bin/node /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v26.0.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Volumes/Sami/SquadGain/squadBackend/.npmrc
+5 silly config load:file:/Users/D048098/.hermes/profiles/dev_maestro/home/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm exec nest start --watch
+8 verbose argv "exec" "--" "nest" "start" "--watch"
+9 verbose logfile logs-max:10 dir:/Users/D048098/.hermes/profiles/dev_maestro/home/.npm/_logs/2026-05-24T06_20_24_275Z-
+10 verbose logfile /Users/D048098/.hermes/profiles/dev_maestro/home/.npm/_logs/2026-05-24T06_20_24_275Z-debug-0.log
+11 silly logfile done cleaning log files

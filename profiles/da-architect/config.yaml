@@ -1,17 +1,33 @@
 model:
   provider: custom
-  base_url: "http://localhost:6655/litellm/v1"
-  default: "anthropic--claude-4.6-opus"
-
+  base_url: "http://localhost:7655/litellm/v1"
+  default: "anthropic--claude-4.7-opus"
+  context_length: 1000000
+  max_tokens: 32000
 mcp_servers:
-  dart:
-    command: /Users/D048098/tools/flutter/bin/dart
-    args: ["mcp-server", "--experimental-mcp-server", "--force-roots-fallback"]
-    timeout: 60
-  mobtech-jira:
-    command: /Users/D048098/tools/flutter/bin/dart
-    args: ["run", "AiJira/mcp_server/bin/server.dart"]
-    cwd: /Users/D048098/SAPDevelop/2025AiJira
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
     env:
-      SAP_COOKIES_PATH: ./sap_cookies.json
-    timeout: 60
+      GITHUB_SAP_TOKEN: ""
+    toolMode: all
+
+  opencode-mcp:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - opencode-mcp
+    env: {}
+    toolMode: all
+
+  cds-mcp:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - "@cap-js/mcp-server"
+    env: {}
+    toolMode: all
+

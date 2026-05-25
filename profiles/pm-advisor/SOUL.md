@@ -33,3 +33,11 @@ You have access to the `doc-search` MCP for semantic search over PDF, DOCX, and 
 4. If `get_index_status` shows no indexed files, index both folders first.
 
 The index is persistent — you only need to re-index when documents change or when `update_index` is appropriate.
+
+---
+
+## Web Search
+
+Use `perplexity_search` to look up current market data, competitor positioning, industry benchmarks, or SAP community announcements beyond your local documents. It calls sonar-pro directly — no delegation needed.
+
+Use `github_search` to find SAP internal product repositories or planning artifacts on github.tools.sap.

@@ -1,0 +1,12 @@
+Last completed:
+
+PM-1: Backend analytics spec (analytics-spec.md) ✅
+PM-3: Fix paid-ads stance ✅
+PM-4: Streak-card animation video ✅
+In progress / pending when session died:
+
+PM-2 — TikTok clip automation + ComfyUI research (was actively writing)
+PM-5 — Building content-factory/ subfolder structure under /docs/gtm/
+Writing content-factory/workflows/comfyui-setup.md — was mid-write when it hit the truncation errors
+Next up: content-factory/workflows/agent-orchestrator.md and output-checklist.md (both pending)
+The last thing it was doing before crashing was writing the comfyui-setup.md file — that write failed with the truncation error. It may be incomplete. Worth checking /Users/D048098/HomeWork/squadGain/docs/gtm/content-factory/workflows/comfyui-setup.md before continuing.

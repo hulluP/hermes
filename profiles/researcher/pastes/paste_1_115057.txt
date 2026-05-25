@@ -1,0 +1,7 @@
+hey I have an anker solarbank 3 2700 pro, we need to cool down our house smart. I also have homeautomation with 
+weather data. research how I can build a smart cooling system , which if the estimated sun hours for a day are 
+enaough to load the battery the system will turn on the air condioning to cool down the house. question is which 
+cooling system to use to only use max 800 w, should I plug it into the outlet in the house with a special plug or 
+should I use the backup terminal outlet on the solix solarbank? I ahve 2000 W pannels which are up and running in 
+the summer from 10 am until 6 pm. research facts note down in this project what you found. guide me with smart 
+questions . I am an engineer so lets push this to the limit

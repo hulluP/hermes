@@ -1,0 +1,26 @@
+16:15:38 ENTER: queued interrupt msg='you only run on the android emulator note this down for this', agent_running=True
+16:15:38 interrupt fired: msg='you only run on the android emulator note this down for this', children=0, parent._interrupt=True
+16:46:42 ENTER: queued interrupt msg='bakend is up and running', agent_running=True
+16:46:42 interrupt fired: msg='bakend is up and running', children=0, parent._interrupt=True
+19:56:13 ENTER: queued interrupt msg='so best really build the navigation from home also ensure th', agent_running=True
+19:56:13 interrupt fired: msg='so best really build the navigation from home also ensure th', children=0, parent._interrupt=True
+19:57:22 ENTER: queued interrupt msg='lets do this you come up with navigation plan to each user s', agent_running=True
+19:57:22 interrupt fired: msg='lets do this you come up with navigation plan to each user s', children=0, parent._interrupt=True
+20:03:47 ENTER: queued interrupt msg='write this to some file I need to edit it', agent_running=True
+20:03:47 interrupt fired: msg='write this to some file I need to edit it', children=0, parent._interrupt=True
+20:05:27 ENTER: queued interrupt msg='write the user stories i need to edit them', agent_running=True
+20:05:27 interrupt fired: msg='write the user stories i need to edit them', children=0, parent._interrupt=True
+08:54:14 ENTER: queued interrupt msg='task the flutter_dev to fix any code which needs to be fixed', agent_running=True
+08:54:14 interrupt fired: msg='task the flutter_dev to fix any code which needs to be fixed', children=0, parent._interrupt=True
+10:33:59 ENTER: queued interrupt msg='all test who are not using the ML stuff can actually also ru', agent_running=True
+10:33:59 interrupt fired: msg='all test who are not using the ML stuff can actually also ru', children=0, parent._interrupt=True
+11:49:37 ENTER: queued interrupt msg='contine remove all take screenshots of non production screen', agent_running=True
+11:49:37 interrupt fired: msg='contine remove all take screenshots of non production screen', children=0, parent._interrupt=True
+15:37:40 interrupt fired: msg='why are the ios screen shoot all missing', children=0, parent._interrupt=True
+15:37:40 ENTER: queued interrupt msg='why are the ios screen shoot all missing', agent_running=True
+17:15:33 ENTER: queued interrupt msg='Story 1.1 [ADMIN] Create the team — Coach -> android has mor', agent_running=True
+17:15:33 interrupt fired: msg='Story 1.1 [ADMIN] Create the team — Coach -> android has mor', children=0, parent._interrupt=True
+17:16:06 ENTER: queued interrupt msg='same for Story 2.2 [ADMIN] Edit, reorder, refine a workout —', agent_running=True
+17:16:06 interrupt fired: msg='same for Story 2.2 [ADMIN] Edit, reorder, refine a workout —', children=0, parent._interrupt=True
+17:17:05 ENTER: queued interrupt msg='look at the screen shots from apple and android they are dif', agent_running=True
+17:17:05 interrupt fired: msg='look at the screen shots from apple and android they are dif', children=0, parent._interrupt=True

@@ -79,3 +79,11 @@ You have access to search tools (google-search, gemini-search) and git tools (lo
 - guides/services-apis.md — service-centric architecture
 - CAP/CDS docs: https://cap.cloud.sap/docs
 - CAP/CDS repo: https://github.tools.sap/cap/cds
+
+---
+
+## Web Search
+
+Use `perplexity_search` for recent CAP/CDS GitHub issues, changelogs, or external ecosystem updates not covered by the playbook. It calls sonar-pro directly — no delegation needed.
+
+Use `github_search` to search the SAP internal GitHub directly — useful for finding CAP/CDS issues, PRs, or internal repo patterns on github.tools.sap.

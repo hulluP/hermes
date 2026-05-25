@@ -1,14 +1,16 @@
 model:
   provider: custom
-  base_url: "http://localhost:6655/litellm/v1"
-  default: "anthropic--claude-4.7-opus"
+  base_url: http://localhost:7655/litellm/v1
+  default: gemini-2.5-pro
+  context_length: 1000000
+  max_tokens: 8192
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
 toolsets:
 - hermes-cli
 agent:
-  max_turns: 60
+  max_turns: 90
   gateway_timeout: 1800
   restart_drain_timeout: 180
   api_max_retries: 3
@@ -353,12 +355,12 @@ delegation:
   subagent_auto_approve: false
 prefill_messages_file: ''
 goals:
-  max_turns: 20
+  max_turns: 40
 skills:
   external_dirs: []
   template_vars: true
   inline_shell: false
-  inline_shell_timeout: 10
+  inline_shell_timeout: 7
   guard_agent_created: false
   creation_nudge_interval: 15
 curator:
@@ -372,6 +374,39 @@ curator:
     keep: 5
 honcho: {}
 timezone: ''
+slack:
+  require_mention: true
+  free_response_channels: ''
+  allowed_channels: ''
+  channel_prompts: {}
+discord:
+  require_mention: true
+  free_response_channels: ''
+  allowed_channels: ''
+  auto_thread: true
+  thread_require_mention: false
+  history_backfill: true
+  history_backfill_limit: 50
+  reactions: true
+  channel_prompts: {}
+  dm_role_auth_guild: ''
+  server_actions: ''
+  allow_any_attachment: false
+  max_attachment_bytes: 33554432
+whatsapp: {}
+telegram:
+  reactions: false
+  channel_prompts: {}
+  allowed_chats: ''
+mattermost:
+  require_mention: true
+  free_response_channels: ''
+  allowed_channels: ''
+  channel_prompts: {}
+matrix:
+  require_mention: true
+  free_response_rooms: ''
+  allowed_rooms: ''
 approvals:
   mode: manual
   timeout: 60
@@ -462,6 +497,13 @@ platform_toolsets:
   teams:
   - hermes-teams
 mcp_servers:
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
+    env:
+      GITHUB_SAP_TOKEN: ''
+    toolMode: all
   mobtech-jira:
     transportType: stdio
     command: /Users/D048098/SAPDevelop/2025AiJira/AiJira/mcp_server/bin/mobtech_jira_mcp
@@ -469,27 +511,24 @@ mcp_servers:
     env:
       SAP_COOKIES_PATH: /Users/D048098/tools/MCP/sap_cookies.json
     toolMode: all
-
   sap-jira:
     transportType: stdio
     command: npx
     args:
-      - -y
-      - git+https://github.tools.sap/sfsfmcp/sap-jira-mcp.git
+    - -y
+    - git+https://github.tools.sap/sfsfmcp/sap-jira-mcp.git
     env:
       AUTH_COOKIE_DIR: /Users/D048098/.npm/_npx/3962e99d41085895/node_modules/sap-auth-mcp/tmp
     toolMode: all
-
   sap-auth-mcp:
     transportType: stdio
     command: npx
     args:
-      - -y
-      - git+https://github.tools.sap/sfsfmcp/sap-auth-mcp.git
+    - -y
+    - git+https://github.tools.sap/sfsfmcp/sap-auth-mcp.git
     env:
       SAP_AUTH_ACCOUNT: sami.lechner@sap.com
     toolMode: all
-
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.

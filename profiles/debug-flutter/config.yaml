@@ -1,14 +1,37 @@
 model:
   provider: custom
-  base_url: "http://localhost:6655/litellm/v1"
-  default: "anthropic--claude-4.6-opus"
-
+  base_url: http://localhost:7655/litellm/v1
+  default: anthropic--claude-4.7-opus
+  context_length: 1000000
+  max_tokens: 32000
 mcp_servers:
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
+    env:
+      GITHUB_SAP_TOKEN: ''
+    toolMode: all
   dart:
     command: /Users/D048098/tools/flutter/bin/dart
-    args: ["mcp-server", "--experimental-mcp-server", "--force-roots-fallback"]
+    args:
+    - mcp-server
+    - --experimental-mcp-server
+    - --force-roots-fallback
     timeout: 60
   maestro:
     command: /Users/D048098/.maestro/bin/maestro
-    args: ["mcp"]
+    args:
+    - mcp
     timeout: 60
+  opencode-mcp:
+    transportType: stdio
+    command: npx
+    args:
+    - -y
+    - opencode-mcp
+    env: {}
+    toolMode: all
+onboarding:
+  seen:
+    busy_input_prompt: true

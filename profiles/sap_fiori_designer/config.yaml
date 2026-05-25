@@ -1,0 +1,25 @@
+model:
+  provider: custom
+  base_url: "http://localhost:7655/litellm/v1"
+  default: "anthropic--claude-4.6-sonnet"
+  context_length: 1000000
+  max_tokens: 16000
+
+mcp_servers:
+  hermes-search:
+    transportType: stdio
+    command: /Users/D048098/SAPDevelop/2026WebSearchMCP/bin/server
+    args: []
+    env:
+      GITHUB_SAP_TOKEN: ""
+    toolMode: all
+
+  opencode-mcp:
+    transportType: stdio
+    command: npx
+    args:
+      - -y
+      - opencode-mcp
+    env: {}
+    toolMode: all
+
